@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "buildId": "daac0bdc49c44966b582",
+  "buildId": "773072b88d7e9e1d768f",
   "dataThrough": "2026-09-13",
   "digestDate": "2026-09-15",
   "lastSuccessAt": "2026-09-14T21:59:18.851728+08:00",
@@ -26,13 +26,13 @@
       }
     },
     "css": {
-      "file": "assets/style-1a3898bbdf44bdeb.gz",
-      "sha256": "1a3898bbdf44bdeb9755e55bb3e64d277ef7752d5c15aa610b14d4b7d9c317a6",
-      "bytes": 67811,
+      "file": "assets/style-ff903dd90ee4cd8e.gz",
+      "sha256": "ff903dd90ee4cd8e6f982ba3edd26fffd030f64ce2669d6ea87775cb2399cc44",
+      "bytes": 70023,
       "fallback": {
-        "file": "assets/style-ecdacbf840adcf10.css",
-        "sha256": "ecdacbf840adcf10593c9994de851c2b36f65d9da9f69bfa58dffd640ae2c252",
-        "bytes": 353357
+        "file": "assets/style-3683a137a53c91af.css",
+        "sha256": "3683a137a53c91af3d96c8394d27d8273f3ca599e667f9e8cf7be7dd3b8f6b86",
+        "bytes": 363926
       }
     },
     "app": {
