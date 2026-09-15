@@ -89,12 +89,15 @@
         );
         return;
       }
-      const [d, b] = await Promise.all([
+      const [d, b, digest] = await Promise.all([
         load(next.files.data),
         businessLoaded ? load(next.files.business) : Promise.resolve(null),
+        next.files.digest ? load(next.files.digest) : Promise.resolve(null),
       ]);
       const parsed = JSON.parse(d);
       if (parsed.meta?.current_data_cutoff < current.dataThrough) throw Error("线上日期回退");
+      if (digest && JSON.parse(digest).dataThrough !== parsed.meta?.current_data_cutoff)
+        throw Error("测试简报与经营数据日期不一致");
       current = next;
       window.dispatchEvent(
         new CustomEvent("delivery-online-data", {
@@ -103,6 +106,10 @@
       );
       inject("delivery-snapshot", d, "application/json");
       if (b) inject("delivery-business", b, "application/json");
+      if (digest) {
+        inject("delivery-test-digest", digest, "application/json");
+        window.dispatchEvent(new CustomEvent("delivery-test-digest"));
+      }
       status("ready", "已载入最新数据，本机填写保持不变");
     } catch {
       status("error", "本次检查未完成，继续使用已经载入的数据。可以重试。");
@@ -113,15 +120,19 @@
   try {
     current = await getManifest();
     // Cost/source bundles load only when profit, data management, or offline save needs them.
-    const [data, css, app, workspace] = await Promise.all([
+    const [data, css, app, workspace, digest] = await Promise.all([
       load(current.files.data),
       load(current.files.css),
       load(current.files.app),
       current.files.workspace ? load(current.files.workspace) : Promise.resolve(null),
+      current.files.digest ? load(current.files.digest) : Promise.resolve(null),
     ]);
+    if (digest && JSON.parse(digest).dataThrough !== JSON.parse(data).meta?.current_data_cutoff)
+      throw Error("测试简报与经营数据日期不一致");
     inject("delivery-snapshot", data, "application/json");
     inject("delivery-online-style", css, "style");
     if (workspace) inject("delivery-workspace", workspace, "application/json");
+    if (digest) inject("delivery-test-digest", digest, "application/json");
     status("ready");
     const script = document.createElement("script");
     script.id = "delivery-app";

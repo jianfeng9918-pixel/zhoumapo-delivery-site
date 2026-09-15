@@ -1,7 +1,8 @@
 {
   "version": 1,
-  "buildId": "6e6f9a38317794891761",
+  "buildId": "11e9c856ee01e339ba61",
   "dataThrough": "2026-09-13",
+  "digestDate": "2026-09-15",
   "lastSuccessAt": "2026-09-14T21:59:18.851728+08:00",
   "files": {
     "data": {
@@ -15,14 +16,19 @@
       "bytes": 883139
     },
     "css": {
-      "file": "assets/style-aaeae281571005dc.gz",
-      "sha256": "aaeae281571005dc1eed17c53e54e000e8b521a26f0962d263e660eae3f1cdbe",
-      "bytes": 67061
+      "file": "assets/style-28f7c5690dbaa163.gz",
+      "sha256": "28f7c5690dbaa1637badc80595427424cd67f35289ecdf02e3a97fa8586413f1",
+      "bytes": 67372
     },
     "app": {
-      "file": "assets/app-78034f10ea31552d.gz",
-      "sha256": "78034f10ea31552dca6c6b2e111d927aff8930d78de4781b76fbabf466d267c6",
-      "bytes": 7036731
+      "file": "assets/app-274a7e7b2c8e793d.gz",
+      "sha256": "274a7e7b2c8e793d5a59f92ffb107400900ac53bdd3f4c30abf60b0c734a7d85",
+      "bytes": 7037518
+    },
+    "digest": {
+      "file": "assets/test-digest-7f53ff4b3f3944c6.gz",
+      "sha256": "7f53ff4b3f3944c6749de9e8beca332c599e7d6339b376a933b56bd0e56f2e29",
+      "bytes": 1527
     }
   }
 }
