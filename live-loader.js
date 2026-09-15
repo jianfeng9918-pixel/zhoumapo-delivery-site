@@ -18,6 +18,7 @@
   const progress = new Map();
   const downloaded = new Map();
   const boot = (message) => window.deliveryBootProgress?.(message);
+  const dataMeta = value => value?.format === 'zmp-columns-v1' ? value.base?.meta : value?.meta;
   const deadline = (job, ms, message) => {
     let timer;
     return Promise.race([job, new Promise((_,reject) => { timer=setTimeout(()=>reject(Error(message)),ms); })]).finally(()=>clearTimeout(timer));
@@ -149,8 +150,8 @@
         next.files.workspace ? load(next.files.workspace) : Promise.resolve(null),
       ]);
       const parsed = JSON.parse(d);
-      if (parsed.meta?.current_data_cutoff < current.dataThrough) throw Error("线上日期回退");
-      if (digest && JSON.parse(digest).dataThrough !== parsed.meta?.current_data_cutoff)
+      if (dataMeta(parsed)?.current_data_cutoff < current.dataThrough) throw Error("线上日期回退");
+      if (digest && JSON.parse(digest).dataThrough !== dataMeta(parsed)?.current_data_cutoff)
         throw Error("测试简报与经营数据日期不一致");
       current = next;
       window.dispatchEvent(
@@ -186,7 +187,7 @@
       current.files.workspace ? load(current.files.workspace,'测试记录') : Promise.resolve(null),
       current.files.digest ? load(current.files.digest,'测试简报') : Promise.resolve(null),
     ]);
-    if (digest && JSON.parse(digest).dataThrough !== JSON.parse(data).meta?.current_data_cutoff)
+    if (digest && JSON.parse(digest).dataThrough !== dataMeta(JSON.parse(data))?.current_data_cutoff)
       throw Error("测试简报与经营数据日期不一致");
     inject("delivery-snapshot", data, "application/json");
     inject("delivery-online-style", css, "style");
