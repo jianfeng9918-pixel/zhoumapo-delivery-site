@@ -89,10 +89,11 @@
         );
         return;
       }
-      const [d, b, digest] = await Promise.all([
+      const [d, b, digest, workspace] = await Promise.all([
         load(next.files.data),
         businessLoaded ? load(next.files.business) : Promise.resolve(null),
         next.files.digest ? load(next.files.digest) : Promise.resolve(null),
+        next.files.workspace ? load(next.files.workspace) : Promise.resolve(null),
       ]);
       const parsed = JSON.parse(d);
       if (parsed.meta?.current_data_cutoff < current.dataThrough) throw Error("线上日期回退");
@@ -101,10 +102,11 @@
       current = next;
       window.dispatchEvent(
         new CustomEvent("delivery-online-data", {
-          detail: { data: parsed, ...(b ? { business: JSON.parse(b) } : {}) },
+          detail: { data: parsed, ...(b ? { business: JSON.parse(b) } : {}), ...(workspace ? {workspace:JSON.parse(workspace)} : {}) },
         }),
       );
       inject("delivery-snapshot", d, "application/json");
+      if(workspace)inject("delivery-workspace",workspace,"application/json");
       if (b) inject("delivery-business", b, "application/json");
       if (digest) {
         inject("delivery-test-digest", digest, "application/json");
