@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "buildId": "6e6f9a38317794891761",
+  "dataThrough": "2026-09-13",
+  "lastSuccessAt": "2026-09-14T21:59:18.851728+08:00",
+  "files": {
+    "data": {
+      "file": "assets/data-788dcf8c272d3fc2.gz",
+      "sha256": "788dcf8c272d3fc2e4e24df93536319994808cd31e4b5c137b561164aac6a7ac",
+      "bytes": 2692303
+    },
+    "business": {
+      "file": "assets/business-d8ca4aad2abbaa0f.gz",
+      "sha256": "d8ca4aad2abbaa0f67934245def5e283fa1da2becac989032ad4cdf65f38b2ef",
+      "bytes": 883139
+    },
+    "css": {
+      "file": "assets/style-aaeae281571005dc.gz",
+      "sha256": "aaeae281571005dc1eed17c53e54e000e8b521a26f0962d263e660eae3f1cdbe",
+      "bytes": 67061
+    },
+    "app": {
+      "file": "assets/app-78034f10ea31552d.gz",
+      "sha256": "78034f10ea31552dca6c6b2e111d927aff8930d78de4781b76fbabf466d267c6",
+      "bytes": 7036731
+    }
+  }
+}
