@@ -1,1 +1,28 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><title>周麻婆外卖经营看板</title></head><body><div id="root"><p style="padding:48px;font:16px system-ui">正在载入最新经营数据…</p></div><script id="delivery-online-loader" src="./live-loader.js"></script></body></html>
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><title>周麻婆外卖经营看板</title><style id="delivery-boot-style">#delivery-boot{max-width:540px;margin:12vh auto;padding:30px 24px;font:15px/1.8 -apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif;color:#334155}#delivery-boot h1{font-size:23px;margin:8px 0 22px;color:#223145}#delivery-boot-brand{font-size:13px;color:#ef201b}#delivery-boot-message{font-variant-numeric:tabular-nums}#delivery-boot-elapsed{color:#7c8a9a;font-size:13px}#delivery-boot-help{border-top:1px solid #e5e9ee;margin-top:22px;padding-top:20px;font-size:14px;color:#64748b}#delivery-boot-help[hidden]{display:none}#delivery-boot button{background:#f1241f;border:0;border-radius:7px;color:white;padding:10px 18px;font:inherit;cursor:pointer}</style></head><body><div id="root"><section id="delivery-boot" role="status"><span id="delivery-boot-brand">周麻婆 · 外卖经营工作台</span><h1>正在打开经营看板</h1><p id="delivery-boot-message">正在连接最新版本…</p><p id="delivery-boot-elapsed"></p><div id="delivery-boot-help" hidden><button id="delivery-boot-retry" type="button">重新加载</button><p>网络较慢时可继续等待。如果从微信打开，可点右上角“…”选择在浏览器打开。重新加载不会清除已保存的填写。</p></div></section></div><noscript>请使用支持JavaScript的浏览器打开看板。</noscript><script id="delivery-boot-watchdog">/* Inline ES5 watchdog: remains usable when the external loader cannot download or parse. */
+(function () {
+  var started = Date.now(), done = false, failed = false;
+  var root = document.getElementById('root'), initial = root.innerHTML;
+  function show(message, error) {
+    if (done) return;
+    if (error) failed = true;
+    if (!document.getElementById('delivery-boot')) root.innerHTML = initial;
+    document.getElementById('delivery-boot-message').textContent = message;
+    document.getElementById('delivery-boot-help').hidden = !(error || Date.now() - started >= 20000);
+    document.getElementById('delivery-boot-retry').onclick = function () { location.reload(); };
+  }
+  window.deliveryBootProgress = function (message) { if (!failed) show(message, false); };
+  window.deliveryBootError = function (message) { show(message, true); };
+  var timer = setInterval(function () {
+    if (done || failed) return;
+    var counter = document.getElementById('delivery-boot-elapsed');
+    if (!counter) return; // React may commit before its ready effect runs.
+    var elapsed = Math.floor((Date.now() - started) / 1000);
+    counter.textContent = '已等待 ' + elapsed + ' 秒';
+    if (elapsed >= 20) document.getElementById('delivery-boot-help').hidden = false;
+    if (elapsed >= 180) show('本次连接超时，尚未打开数据。可以重新加载，或用手机系统浏览器打开此链接。', true);
+  }, 1000);
+  window.addEventListener('delivery-app-ready', function () { done = true; clearInterval(timer); });
+  window.addEventListener('error', function () { if (!done) show('页面程序没有加载成功。请重新加载；若仍停在此处，请用系统浏览器打开。', true); });
+  show('正在连接最新版本…', false);
+})();
+</script><script id="delivery-online-loader" src="./live-loader.js?v=3f38a4b8c104fac5"></script></body></html>

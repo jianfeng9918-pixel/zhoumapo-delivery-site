@@ -1,0 +1,413 @@
+{
+  "generatedDate": "2026-09-15",
+  "dataThrough": "2026-09-13",
+  "incomeDay": 369466.72,
+  "incomeMonth": 3948450.3,
+  "projects": [
+    {
+      "id": "T01",
+      "name": "首版页面组合",
+      "status": "首轮已归档",
+      "days": 7,
+      "sample": "四家卫星店 · 美团",
+      "period": "09/01—09/07",
+      "review": "历史报告保留",
+      "changes": [
+        {
+          "platform": "美团外卖",
+          "entry": 15.707003793931884,
+          "order": 16.02800373331421
+        }
+      ],
+      "basis": "9月1—5日对8月1—5日，固定阶段结论",
+      "next": "保留历史结果；第二版单独观察。",
+      "needs": [],
+      "logs": []
+    },
+    {
+      "id": "T02",
+      "name": "第二版整套页面",
+      "purpose": "第二版整套视觉在集祥天地、金山万科里是否改善转化与经营表现？",
+      "positions": [],
+      "proofCount": 0,
+      "status": "测试进行中",
+      "days": 0,
+      "sample": "福州仓山集祥天地店（卫星店）、福州金山万科里店（卫星店）",
+      "period": "2026-09-15—2026-09-21",
+      "review": "2026-09-22",
+      "changes": [],
+      "basis": "尚无观察期日报，不计算测试涨幅",
+      "next": "等待首日数据，完成页面检查",
+      "needs": [
+        "丽苏：确定同期参照门店",
+        "小雪：请确认点击跳转正常、价格与活动已检查"
+      ],
+      "coverage": [
+        {
+          "platform": "美团外卖",
+          "received": 0,
+          "expected": 0
+        },
+        {
+          "platform": "淘宝闪购",
+          "received": 0,
+          "expected": 0
+        },
+        {
+          "platform": "京东外卖",
+          "received": 0,
+          "expected": 0
+        }
+      ],
+      "logs": [],
+      "checks": {
+        "done": 2,
+        "total": 4
+      },
+      "final": false
+    },
+    {
+      "id": "T03",
+      "name": "常规店首版页面与20款商品图",
+      "purpose": "替换常规店头像、招牌、横幅和三联图，是否改善进店与下单转化？",
+      "designer": "刘子",
+      "positions": [
+        "头像",
+        "招牌",
+        "横幅",
+        "三联图"
+      ],
+      "sourceVersion": "刘子常规店版",
+      "proofCount": 0,
+      "status": "待丽苏确认",
+      "days": 0,
+      "sample": "福州常规店 · 具体门店待丽苏确认",
+      "period": "日期待小雪确定",
+      "review": "上线后第8天",
+      "changes": [],
+      "basis": "未正式上线，不计算测试效果",
+      "next": "确定范围与上线安排",
+      "needs": [
+        "丽苏：确定实验门店、平台与参照范围",
+        "小雪：确定上线日期、调整内容和测试图片"
+      ],
+      "coverage": [
+        {
+          "platform": "美团外卖",
+          "received": 0,
+          "expected": 0
+        }
+      ],
+      "logs": [],
+      "checks": {
+        "done": 0,
+        "total": 4
+      },
+      "final": false
+    },
+    {
+      "id": "T04",
+      "name": "卫星店第三版页面",
+      "purpose": "阿瓜第三版在卫星店的双转与经营表现如何，是否优于前两版？",
+      "designer": "阿瓜",
+      "positions": [
+        "头像",
+        "招牌",
+        "横幅",
+        "三联图"
+      ],
+      "sourceVersion": "阿瓜第三版",
+      "proofCount": 0,
+      "status": "待丽苏确认",
+      "days": 0,
+      "sample": "卫星店 · 具体门店待丽苏确认",
+      "period": "日期待小雪确定",
+      "review": "上线后第8天",
+      "changes": [],
+      "basis": "未正式上线，不计算测试效果",
+      "next": "确定范围与上线安排",
+      "needs": [
+        "丽苏：确定实验门店、平台与参照范围",
+        "小雪：确定上线日期、调整内容和测试图片"
+      ],
+      "coverage": [
+        {
+          "platform": "美团外卖",
+          "received": 0,
+          "expected": 0
+        }
+      ],
+      "logs": [],
+      "checks": {
+        "done": 0,
+        "total": 4
+      },
+      "final": false
+    },
+    {
+      "id": "T05",
+      "name": "常规店商品图卖点",
+      "purpose": "调整商品图卖点，是否改善常规店下单转化与相关商品表现？",
+      "designer": "刘子",
+      "positions": [
+        "商品图"
+      ],
+      "sourceVersion": "常规店商品图卖点版",
+      "proofCount": 0,
+      "status": "待丽苏确认",
+      "days": 0,
+      "sample": "福州常规店 · 具体门店待丽苏确认",
+      "period": "日期待小雪确定",
+      "review": "上线后第8天",
+      "changes": [],
+      "basis": "未正式上线，不计算测试效果",
+      "next": "确定范围与上线安排",
+      "needs": [
+        "丽苏：确定实验门店、平台与参照范围",
+        "小雪：确定上线日期、调整内容和测试图片"
+      ],
+      "coverage": [
+        {
+          "platform": "美团外卖",
+          "received": 0,
+          "expected": 0
+        }
+      ],
+      "logs": [],
+      "checks": {
+        "done": 0,
+        "total": 4
+      },
+      "final": false
+    },
+    {
+      "id": "T06",
+      "name": "常规店验证第二版素材",
+      "purpose": "第二版卫星店素材用于常规店后，是否仍然改善转化？",
+      "designer": "刘子",
+      "positions": [
+        "头像",
+        "招牌",
+        "横幅",
+        "三联图"
+      ],
+      "sourceVersion": "小红书设计师第二版卫星素材",
+      "proofCount": 0,
+      "status": "待丽苏确认",
+      "days": 0,
+      "sample": "福州常规店 · 具体门店待丽苏确认",
+      "period": "日期待小雪确定",
+      "review": "上线后第8天",
+      "changes": [],
+      "basis": "未正式上线，不计算测试效果",
+      "next": "确定范围与上线安排",
+      "needs": [
+        "丽苏：确定实验门店、平台与参照范围",
+        "小雪：确定上线日期、调整内容和测试图片"
+      ],
+      "coverage": [
+        {
+          "platform": "美团外卖",
+          "received": 0,
+          "expected": 0
+        }
+      ],
+      "logs": [],
+      "checks": {
+        "done": 0,
+        "total": 4
+      },
+      "final": false
+    },
+    {
+      "id": "T07",
+      "name": "常规店验证第三版素材",
+      "purpose": "第三版卫星店素材用于常规店后，效果与第二版及原版相比如何？",
+      "designer": "刘子",
+      "positions": [
+        "头像",
+        "招牌",
+        "横幅",
+        "三联图"
+      ],
+      "sourceVersion": "阿瓜第三版卫星素材",
+      "proofCount": 0,
+      "status": "待丽苏确认",
+      "days": 0,
+      "sample": "福州常规店 · 具体门店待丽苏确认",
+      "period": "日期待小雪确定",
+      "review": "上线后第8天",
+      "changes": [],
+      "basis": "未正式上线，不计算测试效果",
+      "next": "确定范围与上线安排",
+      "needs": [
+        "丽苏：确定实验门店、平台与参照范围",
+        "小雪：确定上线日期、调整内容和测试图片"
+      ],
+      "coverage": [
+        {
+          "platform": "美团外卖",
+          "received": 0,
+          "expected": 0
+        }
+      ],
+      "logs": [],
+      "checks": {
+        "done": 0,
+        "total": 4
+      },
+      "final": false
+    }
+  ],
+  "health": {
+    "expected": "2026-09-14",
+    "lag": 1,
+    "label": "还差 1 天日报",
+    "next": "每天 09:30 核对并更新；失败时保留上次数据"
+  },
+  "nextActions": [
+    {
+      "owner": "丽苏",
+      "action": "确定同期参照门店",
+      "urgent": true,
+      "testId": "T02"
+    },
+    {
+      "owner": "小雪",
+      "action": "请确认点击跳转正常、价格与活动已检查",
+      "urgent": true,
+      "testId": "T02"
+    },
+    {
+      "owner": "丽苏",
+      "action": "确定实验店、参照店与平台",
+      "urgent": false,
+      "testId": "T03"
+    },
+    {
+      "owner": "小雪",
+      "action": "补齐上线日期、调整内容与测试图",
+      "urgent": false,
+      "testId": "T03"
+    },
+    {
+      "owner": "丽苏",
+      "action": "确定实验店、参照店与平台",
+      "urgent": false,
+      "testId": "T04"
+    },
+    {
+      "owner": "小雪",
+      "action": "补齐上线日期、调整内容与测试图",
+      "urgent": false,
+      "testId": "T04"
+    },
+    {
+      "owner": "丽苏",
+      "action": "确定实验店、参照店与平台",
+      "urgent": false,
+      "testId": "T05"
+    },
+    {
+      "owner": "小雪",
+      "action": "补齐上线日期、调整内容与测试图",
+      "urgent": false,
+      "testId": "T05"
+    },
+    {
+      "owner": "丽苏",
+      "action": "确定实验店、参照店与平台",
+      "urgent": false,
+      "testId": "T06"
+    },
+    {
+      "owner": "小雪",
+      "action": "补齐上线日期、调整内容与测试图",
+      "urgent": false,
+      "testId": "T06"
+    },
+    {
+      "owner": "丽苏",
+      "action": "确定实验店、参照店与平台",
+      "urgent": false,
+      "testId": "T07"
+    },
+    {
+      "owner": "小雪",
+      "action": "补齐上线日期、调整内容与测试图",
+      "urgent": false,
+      "testId": "T07"
+    }
+  ],
+  "rule": "阶段数据按同店同平台、相同天数计算；上线与完成只按正式执行记录。",
+  "sincePrevious": {
+    "date": "2026-09-14",
+    "dataAdvanced": false,
+    "changes": [
+      {
+        "test": "T02",
+        "note": "已上线 · 次日起算 → 测试进行中"
+      },
+      {
+        "test": "T03",
+        "note": "方案更新：常规店首版页面与20款商品图"
+      },
+      {
+        "test": "T03",
+        "note": "门店范围更新：福州常规店 · 具体门店待丽苏确认"
+      },
+      {
+        "test": "T03",
+        "note": "观察周期：日期待小雪确定"
+      },
+      {
+        "test": "T04",
+        "note": "方案更新：卫星店第三版页面"
+      },
+      {
+        "test": "T04",
+        "note": "门店范围更新：卫星店 · 具体门店待丽苏确认"
+      },
+      {
+        "test": "T04",
+        "note": "观察周期：日期待小雪确定"
+      },
+      {
+        "test": "T05",
+        "note": "方案更新：常规店商品图卖点"
+      },
+      {
+        "test": "T05",
+        "note": "门店范围更新：福州常规店 · 具体门店待丽苏确认"
+      },
+      {
+        "test": "T05",
+        "note": "观察周期：日期待小雪确定"
+      },
+      {
+        "test": "T06",
+        "note": "方案更新：常规店验证第二版素材"
+      },
+      {
+        "test": "T06",
+        "note": "门店范围更新：福州常规店 · 具体门店待丽苏确认"
+      },
+      {
+        "test": "T06",
+        "note": "观察周期：日期待小雪确定"
+      },
+      {
+        "test": "T07",
+        "note": "方案更新：常规店验证第三版素材"
+      },
+      {
+        "test": "T07",
+        "note": "门店范围更新：福州常规店 · 具体门店待丽苏确认"
+      },
+      {
+        "test": "T07",
+        "note": "观察周期：日期待小雪确定"
+      }
+    ]
+  }
+}
