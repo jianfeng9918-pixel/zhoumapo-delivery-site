@@ -1,0 +1,445 @@
+{
+  "version": 10,
+  "testing": {
+    "version": 1,
+    "plans": {
+      "T02": {
+        "scopeDecision": "",
+        "proofs": [],
+        "scopeLocked": false,
+        "checks": {},
+        "images": [],
+        "content": "集祥天地、金山万科里两店替换第二版整套页面。招牌、头像、3连海报、横幅；美团、淘宝、京东分平台观察。",
+        "variant": "第二版整套视觉；招牌“新鲜食材 下单现炒”，头像“田野好菜 新鲜现炒”，三连海报“一人吃饱 / 两人吃好 / 多人吃爽”。横幅跳转按丽苏反馈保持原方案，京东细节继续验收。",
+        "assignments": [
+          {
+            "storeId": "snapshot_store_84ff5992f684",
+            "group": "实验组"
+          },
+          {
+            "storeId": "snapshot_store_b2dbe9ef442d",
+            "group": "实验组"
+          }
+        ],
+        "launch": "2026-09-14",
+        "criteria": "以主要转化率相对涨幅超过10%为业务达标目标；5%以内可能是常规波动，5%—10%继续验证。完整周期结合同期门店、曝光、订单及收入判断，由丽苏确认调整、终止、成功或复制；非自动结案。",
+        "lisuConfirmed": "2026-09-14",
+        "operator": "小强",
+        "readiness": "两店身份与三平台账号按源报表映射。9/14为换图过渡日；主基准9/8—14须标记换图时点影响，并增加9/7—13完整未换图7日作为敏感性比较。",
+        "xqConfirmed": "",
+        "actualSwitch": "2026-09-14",
+        "materialEvidence": "用户提供两张截图；换图记录记2026/9/14 18:00。京东部分跳转细节未完成，单独记录验收。",
+        "activated": true,
+        "logs": [
+          {
+            "id": "t02-launch-20260914",
+            "date": "2026-09-14",
+            "store": "集祥天地、金山万科里",
+            "note": "18:00替换第二版招牌、头像、三连海报和横幅。丽苏反馈三平台已替换，京东跳转细节继续验收。黄剑锋明确启动，9/15—21完整观察，9/22复盘。依据：两张用户提供的上线与群聊截图。"
+          }
+        ],
+        "reviews": [],
+        "launchAuthority": "黄剑锋2026-09-14明确授权启动；丽苏同日反馈两店三平台已替换。",
+        "baselineStart": "2026-09-08",
+        "baselineEnd": "2026-09-14",
+        "basisNote": "主口径前一周同星期；9/14 18:00换图，另看9/7—13基线排除过渡日。"
+      },
+      "T03": {
+        "definition": {
+          "id": "T03",
+          "name": "刘子版常规店页面",
+          "question": "卫星店验证过的视觉思路用于福州常规店，双转化是否仍有提升？",
+          "sample": "福州常规店",
+          "count": 0,
+          "start": "",
+          "end": "",
+          "report": "",
+          "status": "筹备中 · 范围和上线日待确认",
+          "variant": "刘子常规店版",
+          "reference": "同店同平台、等长观察期对上周；去年同日期有完整同口径数据时比较；另看同期福州及全国其他可比门店，剔除本轮实验店。",
+          "hold": "记录并尽量保持价格、活动、投放、营业时间和非本次测试图片不变；多处同时改变时只判断整套方案。",
+          "conclusion": "尚未确认上线，不预填测试结果。",
+          "next": "丽苏确定样本、平台和调整范围；小雪确定上线日期、素材与凭证。",
+          "owner": "丽苏负责范围、观察与决定；小雪负责设计排期、上线与检查",
+          "dependency": "本轮只验证页面风格；20款商品角标另列T05。若必须同步调整，须记录为组合测试，不单独归因风格。",
+          "deliver": "范围清单、位置与版本、上线凭证、7天自动报告",
+          "days": 7,
+          "designer": "刘子",
+          "sourceVersion": "刘子常规店版",
+          "positions": [
+            "头像",
+            "招牌",
+            "横幅",
+            "三联图"
+          ],
+          "scopeCategory": "福州常规店"
+        },
+        "scopeDecision": "",
+        "proofs": [],
+        "scopeLocked": false,
+        "checks": {},
+        "images": [],
+        "content": "",
+        "variant": "",
+        "assignments": [],
+        "launch": "",
+        "criteria": "以主要转化率相对涨幅超过10%为业务达标目标；5%以内可能是常规波动，5%—10%继续验证。完整周期结合同期门店、曝光、订单及收入判断，由丽苏确认调整、终止、成功或复制；非自动结案。",
+        "lisuConfirmed": "",
+        "operator": "小强",
+        "readiness": "",
+        "xqConfirmed": "",
+        "actualSwitch": "",
+        "materialEvidence": "",
+        "activated": false,
+        "logs": [],
+        "reviews": []
+      },
+      "T04": {
+        "definition": {
+          "id": "T04",
+          "name": "阿瓜版卫星店页面",
+          "question": "阿瓜风格与已有两版相比，哪种风格更能带来进店和下单？",
+          "sample": "卫星店",
+          "count": 0,
+          "start": "",
+          "end": "",
+          "report": "",
+          "status": "筹备中 · 范围和上线日待确认",
+          "variant": "阿瓜第三版",
+          "reference": "同店同平台、等长观察期对上周；去年同日期有完整同口径数据时比较；另看同期福州及全国其他可比门店，剔除本轮实验店。",
+          "hold": "记录并尽量保持价格、活动、投放、营业时间和非本次测试图片不变；多处同时改变时只判断整套方案。",
+          "conclusion": "尚未确认上线，不预填测试结果。",
+          "next": "丽苏确定样本、平台和调整范围；小雪确定上线日期、素材与凭证。",
+          "owner": "丽苏负责范围、观察与决定；小雪负责设计排期、上线与检查",
+          "dependency": "与已有两版分开观察，记录实际替换位置与前后版本。",
+          "deliver": "范围清单、位置与版本、上线凭证、7天自动报告",
+          "days": 7,
+          "designer": "阿瓜",
+          "sourceVersion": "阿瓜第三版",
+          "positions": [
+            "头像",
+            "招牌",
+            "横幅",
+            "三联图"
+          ],
+          "scopeCategory": "卫星店"
+        },
+        "scopeDecision": "",
+        "proofs": [],
+        "scopeLocked": false,
+        "checks": {},
+        "images": [],
+        "content": "",
+        "variant": "",
+        "assignments": [],
+        "launch": "",
+        "criteria": "以主要转化率相对涨幅超过10%为业务达标目标；5%以内可能是常规波动，5%—10%继续验证。完整周期结合同期门店、曝光、订单及收入判断，由丽苏确认调整、终止、成功或复制；非自动结案。",
+        "lisuConfirmed": "",
+        "operator": "小强",
+        "readiness": "",
+        "xqConfirmed": "",
+        "actualSwitch": "",
+        "materialEvidence": "",
+        "activated": false,
+        "logs": [],
+        "reviews": []
+      },
+      "T05": {
+        "definition": {
+          "id": "T05",
+          "name": "20款重点商品卖点与角标",
+          "question": "从全量商品介绍改为重点突出20款，是否提升这些商品的订单占比和门店下单转化？",
+          "sample": "福州常规店",
+          "count": 0,
+          "start": "",
+          "end": "",
+          "report": "",
+          "status": "筹备中 · 范围和上线日待确认",
+          "variant": "常规店商品图卖点版",
+          "reference": "同店同平台、等长观察期对上周；去年同日期有完整同口径数据时比较；另看同期福州及全国其他可比门店，剔除本轮实验店。",
+          "hold": "记录并尽量保持价格、活动、投放、营业时间和非本次测试图片不变；多处同时改变时只判断整套方案。",
+          "conclusion": "尚未确认上线，不预填测试结果。",
+          "next": "丽苏确定样本、平台和调整范围；小雪确定上线日期、素材与凭证。",
+          "owner": "丽苏负责范围、观察与决定；小雪负责设计排期、上线与检查",
+          "dependency": "具体商品/SKU、卖点文字与调整位置由丽苏确定，小雪核对实际替换。",
+          "deliver": "范围清单、位置与版本、上线凭证、7天自动报告",
+          "days": 7,
+          "designer": "刘子",
+          "sourceVersion": "常规店商品图卖点版",
+          "positions": [
+            "商品图"
+          ],
+          "scopeCategory": "福州常规店"
+        },
+        "scopeDecision": "",
+        "proofs": [],
+        "scopeLocked": false,
+        "checks": {},
+        "images": [],
+        "content": "",
+        "variant": "",
+        "assignments": [],
+        "launch": "",
+        "criteria": "以主要转化率相对涨幅超过10%为业务达标目标；5%以内可能是常规波动，5%—10%继续验证。完整周期结合同期门店、曝光、订单及收入判断，由丽苏确认调整、终止、成功或复制；非自动结案。",
+        "lisuConfirmed": "",
+        "operator": "小强",
+        "readiness": "",
+        "xqConfirmed": "",
+        "actualSwitch": "",
+        "materialEvidence": "",
+        "activated": false,
+        "logs": [],
+        "reviews": []
+      },
+      "T06": {
+        "definition": {
+          "id": "T06",
+          "name": "常规店验证第二版素材",
+          "question": "第二版卫星店素材用于常规店后，是否仍然改善转化？",
+          "sample": "福州常规店",
+          "count": 0,
+          "start": "",
+          "end": "",
+          "report": "",
+          "status": "筹备中 · 范围和上线日待确认",
+          "variant": "小红书设计师第二版卫星素材",
+          "reference": "同店同平台、等长观察期对上周；去年同日期有完整同口径数据时比较；另看同期福州及全国其他可比门店，剔除本轮实验店。",
+          "hold": "记录并尽量保持价格、活动、投放、营业时间和非本次测试图片不变；多处同时改变时只判断整套方案。",
+          "conclusion": "尚未确认上线，不预填测试结果。",
+          "next": "丽苏确定样本、平台和调整范围；小雪确定上线日期、素材与凭证。",
+          "owner": "丽苏负责范围、观察与决定；小雪负责设计排期、上线与检查",
+          "dependency": "刘子负责常规店适配；素材来源为小红书设计师第二版。",
+          "deliver": "范围清单、位置与版本、上线凭证、7天自动报告",
+          "days": 7,
+          "designer": "刘子",
+          "sourceVersion": "小红书设计师第二版卫星素材",
+          "positions": [
+            "头像",
+            "招牌",
+            "横幅",
+            "三联图"
+          ],
+          "scopeCategory": "福州常规店"
+        },
+        "scopeDecision": "",
+        "proofs": [],
+        "scopeLocked": false,
+        "checks": {},
+        "images": [],
+        "content": "",
+        "variant": "",
+        "assignments": [],
+        "launch": "",
+        "criteria": "以主要转化率相对涨幅超过10%为业务达标目标；5%以内可能是常规波动，5%—10%继续验证。完整周期结合同期门店、曝光、订单及收入判断，由丽苏确认调整、终止、成功或复制；非自动结案。",
+        "lisuConfirmed": "",
+        "operator": "小强",
+        "readiness": "",
+        "xqConfirmed": "",
+        "actualSwitch": "",
+        "materialEvidence": "",
+        "activated": false,
+        "logs": [],
+        "reviews": []
+      },
+      "T07": {
+        "definition": {
+          "id": "T07",
+          "name": "常规店验证第三版素材",
+          "question": "第三版卫星店素材用于常规店后，效果与第二版及原版相比如何？",
+          "sample": "福州常规店",
+          "count": 0,
+          "start": "",
+          "end": "",
+          "report": "",
+          "status": "筹备中 · 范围和上线日待确认",
+          "variant": "阿瓜第三版卫星素材",
+          "reference": "同店同平台、等长观察期对上周；去年同日期有完整同口径数据时比较；另看同期福州及全国其他可比门店，剔除本轮实验店。",
+          "hold": "记录并尽量保持价格、活动、投放、营业时间和非本次测试图片不变；多处同时改变时只判断整套方案。",
+          "conclusion": "尚未确认上线，不预填测试结果。",
+          "next": "丽苏确定样本、平台和调整范围；小雪确定上线日期、素材与凭证。",
+          "owner": "丽苏负责范围、观察与决定；小雪负责设计排期、上线与检查",
+          "dependency": "用户已确认采用阿瓜第三版卫星素材，由刘子适配到福州常规店。",
+          "deliver": "范围清单、位置与版本、上线凭证、7天自动报告",
+          "days": 7,
+          "designer": "刘子",
+          "sourceVersion": "阿瓜第三版卫星素材",
+          "positions": [
+            "头像",
+            "招牌",
+            "横幅",
+            "三联图"
+          ],
+          "scopeCategory": "福州常规店"
+        },
+        "scopeDecision": "",
+        "proofs": [],
+        "scopeLocked": false,
+        "checks": {},
+        "images": [],
+        "content": "",
+        "variant": "",
+        "assignments": [],
+        "launch": "",
+        "criteria": "以主要转化率相对涨幅超过10%为业务达标目标；5%以内可能是常规波动，5%—10%继续验证。完整周期结合同期门店、曝光、订单及收入判断，由丽苏确认调整、终止、成功或复制；非自动结案。",
+        "lisuConfirmed": "",
+        "operator": "小强",
+        "readiness": "",
+        "xqConfirmed": "",
+        "actualSwitch": "",
+        "materialEvidence": "",
+        "activated": false,
+        "logs": [],
+        "reviews": []
+      }
+    },
+    "designs": {
+      "A": {
+        "designer": "",
+        "first": "",
+        "delivery": "",
+        "confirmed": "",
+        "received": "",
+        "evidence": ""
+      },
+      "B": {
+        "designer": "",
+        "first": "",
+        "delivery": "",
+        "confirmed": "",
+        "received": "",
+        "evidence": ""
+      },
+      "C": {
+        "designer": "",
+        "first": "",
+        "delivery": "",
+        "confirmed": "",
+        "received": "",
+        "evidence": ""
+      },
+      "G": {
+        "designer": "",
+        "first": "",
+        "delivery": "",
+        "confirmed": "",
+        "received": "",
+        "evidence": ""
+      },
+      "COPY": {
+        "designer": "",
+        "first": "",
+        "delivery": "",
+        "confirmed": "",
+        "received": "",
+        "evidence": ""
+      },
+      "R1": {
+        "designer": "",
+        "first": "",
+        "delivery": "",
+        "confirmed": "",
+        "received": "",
+        "evidence": ""
+      }
+    },
+    "archived": [],
+    "rollout": {
+      "freeze": "",
+      "start": "",
+      "end": "",
+      "stores": "",
+      "version": "",
+      "confirmed": ""
+    },
+    "launchApplied": "T02-20260914-v2"
+  },
+  "team": {
+    "version": 1,
+    "revision": 5,
+    "planRevisions": {
+      "T03": 1,
+      "T04": 1,
+      "T05": 1,
+      "T06": 1,
+      "T07": 1
+    },
+    "events": [
+      {
+        "id": "59e0f01a-3c19-424c-bdee-e0b7dabaa7ad",
+        "at": "2026-09-15T05:47:15.508Z",
+        "name": "Codex代录·黄剑锋转述丽苏",
+        "role": "admin",
+        "testId": "T03",
+        "fields": [
+          "definition"
+        ],
+        "revision": 1,
+        "source": "本线程2026-09-15用户提供T03—T07安排；后续明确T07以阿瓜第三版为准；未确认新门店和上线日期"
+      },
+      {
+        "id": "2cf565d2-81a0-4d82-a918-cf6cf82fb0d8",
+        "at": "2026-09-15T05:47:15.717Z",
+        "name": "Codex代录·黄剑锋转述丽苏",
+        "role": "admin",
+        "testId": "T04",
+        "fields": [
+          "definition"
+        ],
+        "revision": 2,
+        "source": "本线程2026-09-15用户提供T03—T07安排；后续明确T07以阿瓜第三版为准；未确认新门店和上线日期"
+      },
+      {
+        "id": "b5e9bae0-3e4e-4489-ad56-c648fc8ed33f",
+        "at": "2026-09-15T05:47:15.920Z",
+        "name": "Codex代录·黄剑锋转述丽苏",
+        "role": "admin",
+        "testId": "T05",
+        "fields": [
+          "definition"
+        ],
+        "revision": 3,
+        "source": "本线程2026-09-15用户提供T03—T07安排；后续明确T07以阿瓜第三版为准；未确认新门店和上线日期"
+      },
+      {
+        "id": "d87ac6ce-1c46-4e24-92d0-f3ee440f500d",
+        "at": "2026-09-15T05:47:16.121Z",
+        "name": "Codex代录·黄剑锋转述丽苏",
+        "role": "admin",
+        "testId": "T06",
+        "fields": [
+          "definition"
+        ],
+        "revision": 4,
+        "source": "本线程2026-09-15用户提供T03—T07安排；后续明确T07以阿瓜第三版为准；未确认新门店和上线日期"
+      },
+      {
+        "id": "e700a551-05b1-492d-8748-4a2dbab34b80",
+        "at": "2026-09-15T05:47:16.327Z",
+        "name": "Codex代录·黄剑锋转述丽苏",
+        "role": "admin",
+        "testId": "T07",
+        "fields": [
+          "definition"
+        ],
+        "revision": 5,
+        "source": "本线程2026-09-15用户提供T03—T07安排；后续明确T07以阿瓜第三版为准；未确认新门店和上线日期"
+      }
+    ],
+    "imports": [
+      {
+        "hash": "2a0d8769405b034e9fdb38251f23fff2d5cf2410b814350d46cca7280225d766",
+        "actor": "Codex代录·黄剑锋转述丽苏",
+        "source": "本线程2026-09-15用户提供T03—T07安排；后续明确T07以阿瓜第三版为准；未确认新门店和上线日期",
+        "at": "2026-09-15T05:47:16.328Z",
+        "tests": [
+          "T03",
+          "T04",
+          "T05",
+          "T06",
+          "T07"
+        ]
+      }
+    ]
+  },
+  "updatedAt": "2026-09-16T14:15:38.563102+00:00"
+}
