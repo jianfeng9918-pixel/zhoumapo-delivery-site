@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "buildId": "357cc3217aeb793e14fb",
+  "buildId": "eab248f57431b8647559",
   "dataThrough": "2026-09-18",
   "digestDate": "2026-09-19",
   "lastSuccessAt": "2026-09-19T22:10:12.914622+08:00",
@@ -36,23 +36,23 @@
       }
     },
     "app": {
-      "file": "assets/app-4f825399525235da.gz",
-      "sha256": "4f825399525235da9ad8bac03fc2eb982e5295d3d2ece3442cc46fe347bdf23d",
-      "bytes": 734216,
+      "file": "assets/app-a23f46e90523387b.gz",
+      "sha256": "a23f46e90523387bb5288db7f19c28a40c800377fc4d0fdf65c994bb121cb0fd",
+      "bytes": 735617,
       "fallback": {
-        "file": "assets/app-8c34af275569c143.js",
-        "sha256": "8c34af275569c143334c57c4a5682102ff371644ef7eac45f8571b0782e666be",
-        "bytes": 2373673
+        "file": "assets/app-0f6e59d9314afed5.js",
+        "sha256": "0f6e59d9314afed5e5b84526b4c06b7b8aedf7c063ddf0d39376bfc7de1de56d",
+        "bytes": 2376183
       }
     },
     "digest": {
-      "file": "assets/test-digest-46eb759cac53f4f9.gz",
-      "sha256": "46eb759cac53f4f9a22bbbb8b10663576acdb3f8388cd76182684fe29da6f6a4",
-      "bytes": 26133,
+      "file": "assets/test-digest-5b05ca80de14b7f4.gz",
+      "sha256": "5b05ca80de14b7f4d7db818e63c67505054522c62068183ff05132c907a8821f",
+      "bytes": 27242,
       "fallback": {
-        "file": "assets/test-digest-356b9c8bd1256d53.json",
-        "sha256": "356b9c8bd1256d537366de710fa5ab99c2215ae336a34bdf93230f7363d8f36f",
-        "bytes": 262702
+        "file": "assets/test-digest-aa1b29603b275f9b.json",
+        "sha256": "aa1b29603b275f9b4ec69a24a8dab093804d72fc88caf25656970ac799a0846b",
+        "bytes": 272434
       }
     },
     "workspace": {
