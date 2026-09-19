@@ -1,0 +1,2045 @@
+{
+  "generatedDate": "2026-09-19",
+  "dataThrough": "2026-09-18",
+  "incomeDay": 293649.95,
+  "incomeMonth": 5343379.13,
+  "projects": [
+    {
+      "id": "T01",
+      "name": "首版页面组合",
+      "status": "首轮已归档",
+      "days": 7,
+      "sample": "四家卫星店 · 美团",
+      "period": "09/01—09/07",
+      "review": "历史报告保留",
+      "changes": [
+        {
+          "platform": "美团外卖",
+          "entry": 15.707003793931884,
+          "order": 16.02800373331421
+        }
+      ],
+      "basis": "9月1—5日对8月1—5日，固定阶段结论",
+      "august": [],
+      "next": "保留历史结果；第二版单独观察。",
+      "needs": [],
+      "logs": []
+    },
+    {
+      "id": "T02",
+      "name": "第二版整套页面",
+      "purpose": "换一种设计风格，是否让更多顾客进店、下单，并带来收入改善？",
+      "positions": [],
+      "proofCount": 0,
+      "status": "测试进行中",
+      "days": 4,
+      "sample": "福州仓山集祥天地店（卫星店）、福州金山万科里店（卫星店）",
+      "period": "2026-09-15—2026-09-21",
+      "review": "2026-09-22",
+      "changes": [
+        {
+          "platform": "美团外卖",
+          "entry": -19.807358237738914,
+          "order": -12.834271639690353
+        },
+        {
+          "platform": "淘宝闪购",
+          "entry": -13.189507870792816,
+          "order": -9.547011783637194
+        },
+        {
+          "platform": "京东外卖",
+          "entry": null,
+          "order": null
+        }
+      ],
+      "august": [
+        {
+          "platform": "美团外卖",
+          "label": "测试店 · 对八月同日期",
+          "period": "2026-08-15—2026-08-18",
+          "before": {
+            "exposure": 30029,
+            "entry": 1968,
+            "order": 436,
+            "valid_order": 446,
+            "revenue": 17471.48,
+            "turnover": 27380.300000000003,
+            "entry_rate": 6.553664790702321,
+            "order_rate": 22.15447154471545,
+            "expected": 8,
+            "received": 8,
+            "funnelRows": 8
+          },
+          "after": {
+            "exposure": 22753,
+            "entry": 1624,
+            "order": 367,
+            "valid_order": 372,
+            "revenue": 12805.310000000001,
+            "turnover": 20146,
+            "entry_rate": 7.137520326989848,
+            "order_rate": 22.598522167487683,
+            "expected": 8,
+            "received": 8,
+            "funnelRows": 8
+          },
+          "count": 2,
+          "total": 2,
+          "entry": 8.908840395923857,
+          "order": 2.0043385908618205
+        },
+        {
+          "platform": "淘宝闪购",
+          "label": "测试店 · 对八月同日期",
+          "period": "2026-08-15—2026-08-18",
+          "before": {
+            "exposure": 163026,
+            "entry": 8741,
+            "order": 1308,
+            "valid_order": 1319,
+            "revenue": 46778.35,
+            "turnover": 72772.68000000001,
+            "entry_rate": 5.361721443205378,
+            "order_rate": 14.963962933302827,
+            "expected": 8,
+            "received": 8,
+            "funnelRows": 8
+          },
+          "after": {
+            "exposure": 149893,
+            "entry": 6991,
+            "order": 885,
+            "valid_order": 892,
+            "revenue": 29034.59,
+            "turnover": 46628.200000000004,
+            "entry_rate": 4.663993648802813,
+            "order_rate": 12.659133171220141,
+            "expected": 8,
+            "received": 8,
+            "funnelRows": 8
+          },
+          "count": 2,
+          "total": 2,
+          "entry": -13.013130237990234,
+          "order": -15.402535894774283
+        },
+        {
+          "platform": "京东外卖",
+          "label": "测试店 · 对八月同日期",
+          "period": "2026-08-15—2026-08-18",
+          "before": {
+            "exposure": null,
+            "entry": null,
+            "order": null,
+            "valid_order": 128,
+            "revenue": 1812.3500000000001,
+            "turnover": 3873.8,
+            "entry_rate": null,
+            "order_rate": null,
+            "expected": 8,
+            "received": 8,
+            "funnelRows": 0
+          },
+          "after": {
+            "exposure": null,
+            "entry": null,
+            "order": null,
+            "valid_order": 56,
+            "revenue": 869.5300000000001,
+            "turnover": 1742.9,
+            "entry_rate": null,
+            "order_rate": null,
+            "expected": 8,
+            "received": 8,
+            "funnelRows": 0
+          },
+          "count": 2,
+          "total": 2,
+          "entry": null,
+          "order": null
+        }
+      ],
+      "basis": "2026-09-15—2026-09-18 对 2026-09-08—2026-09-11",
+      "next": "继续观察；核对同期活动与页面变化",
+      "needs": [
+        "丽苏：确定同期参照门店",
+        "小雪：请确认点击跳转正常、价格与活动已检查"
+      ],
+      "coverage": [
+        {
+          "platform": "美团外卖",
+          "received": 8,
+          "expected": 8
+        },
+        {
+          "platform": "淘宝闪购",
+          "received": 8,
+          "expected": 8
+        },
+        {
+          "platform": "京东外卖",
+          "received": 8,
+          "expected": 8
+        }
+      ],
+      "logs": [
+        {
+          "id": "user-20260919-T02",
+          "date": "2026-09-19",
+          "store": "测试范围",
+          "note": "黄剑锋9月19日再次确认：小红书版9月14日18:00更新于集祥天地、金山万科里。四家卫星店9月18日起上线卤味，作为同期经营变化单独标注；增加八月同日期补充对照，保持原观察周期与历史结论。"
+        }
+      ],
+      "checks": {
+        "done": 2,
+        "total": 4
+      },
+      "final": false
+    },
+    {
+      "id": "T03",
+      "name": "刘子版常规店页面",
+      "purpose": "首版卫星店素材适配到常规店，替换三张海报菜品图后，双转化与订单是否改善？",
+      "designer": "刘子",
+      "positions": [
+        "头像",
+        "招牌",
+        "横幅",
+        "三联图"
+      ],
+      "sourceVersion": "第一版四家卫星店素材",
+      "proofCount": 0,
+      "status": "待丽苏确认",
+      "days": 0,
+      "sample": "福州常规门店20家（名单待补） · 具体门店待丽苏确认",
+      "period": "2026-09-21—2026-09-27（拟）",
+      "review": "2026-09-28",
+      "changes": [],
+      "august": [],
+      "basis": "未正式上线，不计算测试效果",
+      "next": "确定范围与上线安排",
+      "needs": [
+        "丽苏：确定实验门店、平台与参照范围",
+        "小雪：确定上线日期、调整内容和测试图片"
+      ],
+      "coverage": [
+        {
+          "platform": "美团外卖",
+          "received": 0,
+          "expected": 0
+        }
+      ],
+      "logs": [
+        {
+          "id": "user-20260919-T03",
+          "date": "2026-09-19",
+          "store": "测试范围",
+          "note": "黄剑锋确认20家常规测试门店已给到团队，素材已交付，预计9月20日更新；本看板尚未收到具体名单，未确认实际更新。"
+        }
+      ],
+      "checks": {
+        "done": 0,
+        "total": 4
+      },
+      "final": false
+    },
+    {
+      "id": "T04",
+      "name": "阿瓜版卫星店页面",
+      "purpose": "阿瓜风格与已有两版相比，哪种风格更能带来进店和下单？",
+      "designer": "阿瓜",
+      "positions": [
+        "头像",
+        "招牌",
+        "横幅",
+        "三联图"
+      ],
+      "sourceVersion": "阿瓜第三版",
+      "proofCount": 0,
+      "status": "待丽苏确认",
+      "days": 0,
+      "sample": "卫星店 · 具体门店待丽苏确认",
+      "period": "日期待小雪确定",
+      "review": "上线后第8天",
+      "changes": [],
+      "august": [],
+      "basis": "未正式上线，不计算测试效果",
+      "next": "确定范围与上线安排",
+      "needs": [
+        "丽苏：确定实验门店、平台与参照范围",
+        "小雪：确定上线日期、调整内容和测试图片"
+      ],
+      "coverage": [
+        {
+          "platform": "美团外卖",
+          "received": 0,
+          "expected": 0
+        }
+      ],
+      "logs": [
+        {
+          "id": "user-20260919-T04",
+          "date": "2026-09-19",
+          "store": "测试范围",
+          "note": "黄剑锋确认后续安排：下周在另外两家卫星店延续小红书素材一周；阿瓜素材预计9月20日出稿、9月最后一周上线，门店待定。两轮独立记录，不自动启动。"
+        }
+      ],
+      "checks": {
+        "done": 0,
+        "total": 4
+      },
+      "final": false
+    },
+    {
+      "id": "T05",
+      "name": "20款重点商品卖点与角标",
+      "purpose": "从全量商品介绍改为重点突出20款，是否提升这些商品的订单占比和门店下单转化？",
+      "designer": "刘子",
+      "positions": [
+        "商品图"
+      ],
+      "sourceVersion": "常规店商品图卖点版",
+      "proofCount": 0,
+      "status": "待丽苏确认",
+      "days": 0,
+      "sample": "福州常规店 · 具体门店待丽苏确认",
+      "period": "日期待小雪确定",
+      "review": "上线后第8天",
+      "changes": [],
+      "august": [],
+      "basis": "未正式上线，不计算测试效果",
+      "next": "确定范围与上线安排",
+      "needs": [
+        "丽苏：确定实验门店、平台与参照范围",
+        "小雪：确定上线日期、调整内容和测试图片"
+      ],
+      "coverage": [
+        {
+          "platform": "美团外卖",
+          "received": 0,
+          "expected": 0
+        }
+      ],
+      "logs": [],
+      "checks": {
+        "done": 0,
+        "total": 4
+      },
+      "final": false
+    },
+    {
+      "id": "T06",
+      "name": "常规店验证第二版素材",
+      "purpose": "第二版卫星店素材用于常规店后，是否仍然改善转化？",
+      "designer": "刘子",
+      "positions": [
+        "头像",
+        "招牌",
+        "横幅",
+        "三联图"
+      ],
+      "sourceVersion": "小红书设计师第二版卫星素材",
+      "proofCount": 0,
+      "status": "待丽苏确认",
+      "days": 0,
+      "sample": "福州常规店 · 具体门店待丽苏确认",
+      "period": "日期待小雪确定",
+      "review": "上线后第8天",
+      "changes": [],
+      "august": [],
+      "basis": "未正式上线，不计算测试效果",
+      "next": "确定范围与上线安排",
+      "needs": [
+        "丽苏：确定实验门店、平台与参照范围",
+        "小雪：确定上线日期、调整内容和测试图片"
+      ],
+      "coverage": [
+        {
+          "platform": "美团外卖",
+          "received": 0,
+          "expected": 0
+        }
+      ],
+      "logs": [],
+      "checks": {
+        "done": 0,
+        "total": 4
+      },
+      "final": false
+    },
+    {
+      "id": "T07",
+      "name": "常规店验证第三版素材",
+      "purpose": "第三版卫星店素材用于常规店后，效果与第二版及原版相比如何？",
+      "designer": "刘子",
+      "positions": [
+        "头像",
+        "招牌",
+        "横幅",
+        "三联图"
+      ],
+      "sourceVersion": "阿瓜第三版卫星素材",
+      "proofCount": 0,
+      "status": "待丽苏确认",
+      "days": 0,
+      "sample": "福州常规店 · 具体门店待丽苏确认",
+      "period": "日期待小雪确定",
+      "review": "上线后第8天",
+      "changes": [],
+      "august": [],
+      "basis": "未正式上线，不计算测试效果",
+      "next": "确定范围与上线安排",
+      "needs": [
+        "丽苏：确定实验门店、平台与参照范围",
+        "小雪：确定上线日期、调整内容和测试图片"
+      ],
+      "coverage": [
+        {
+          "platform": "美团外卖",
+          "received": 0,
+          "expected": 0
+        }
+      ],
+      "logs": [],
+      "checks": {
+        "done": 0,
+        "total": 4
+      },
+      "final": false
+    },
+    {
+      "id": "T08",
+      "name": "小红书版另外两店延续测试",
+      "purpose": "小红书版在另外两家卫星店能否重复观察到转化改善？",
+      "designer": "小红书设计师",
+      "positions": [
+        "头像",
+        "招牌",
+        "横幅",
+        "三联图"
+      ],
+      "sourceVersion": "小红书第二版",
+      "proofCount": 0,
+      "status": "待丽苏确认",
+      "days": 0,
+      "sample": "另外两家卫星店（具体名单待丽苏确认） · 具体门店待丽苏确认",
+      "period": "日期待小雪确定",
+      "review": "上线后第8天",
+      "changes": [],
+      "august": [],
+      "basis": "未正式上线，不计算测试效果",
+      "next": "确定范围与上线安排",
+      "needs": [
+        "丽苏：确定实验门店、平台与参照范围",
+        "小雪：确定上线日期、调整内容和测试图片"
+      ],
+      "coverage": [
+        {
+          "platform": "美团外卖",
+          "received": 0,
+          "expected": 0
+        }
+      ],
+      "logs": [
+        {
+          "id": "user-20260919-T08",
+          "date": "2026-09-19",
+          "store": "另外两家卫星店",
+          "note": "黄剑锋本轮澄清：下一周小红书素材再上线，另外两家卫星店继续跑一周。以独立后续轮次记录；不推断实际上线。"
+        }
+      ],
+      "checks": {
+        "done": 0,
+        "total": 4
+      },
+      "final": false
+    }
+  ],
+  "executionUpdates": [
+    {
+      "id": "T02",
+      "title": "小红书版 · 两店观察",
+      "status": "已上线",
+      "date": "09/14 18:00",
+      "detail": "集祥天地、金山万科里已替换；09/15—09/21正式观察，09/22复盘。",
+      "next": "小雪补齐页面检查；丽苏结合上周与八月同期观察。"
+    },
+    {
+      "id": "LU01",
+      "title": "四家卫星店 · 卤味测试",
+      "status": "已上线",
+      "date": "09/18",
+      "detail": "用户确认四店已上卤味。具体平台、SKU、上线时刻与测试结束日尚未提供。",
+      "next": "小强补充商品与活动明细；丽苏确认指标和周期。09/18起作为视觉测试的同期影响因素。"
+    },
+    {
+      "id": "T03",
+      "title": "20家常规店 · 首版素材适配",
+      "status": "素材已交付",
+      "date": "预计09/20上线",
+      "detail": "沿用首版四店头像、横幅、招牌和文案；仅替换三张海报中的菜品图。",
+      "next": "丽苏提供20店名单及平台；小雪确认实际更新和凭证。未确认上线，不计算效果。"
+    },
+    {
+      "id": "T08",
+      "title": "T08 小红书版 · 另外两店延续",
+      "status": "计划中",
+      "date": "下一周 · 日期待确认",
+      "detail": "计划另外两家卫星店继续观察一周；与当前T02分开记录，不延长或改写T02。",
+      "next": "丽苏确认两店及参照范围；小雪确认上线日期、素材与检查。"
+    },
+    {
+      "id": "T04",
+      "title": "阿瓜版 · 只改变风格",
+      "status": "设计排期",
+      "date": "预计09/20出稿 · 9月最后一周上线",
+      "detail": "保留首版卫星店文案与菜品，只替换视觉风格；测试门店待定。",
+      "next": "小雪跟进阿瓜交付及上线日；丽苏确定样本，避免与小红书延续测试混期。"
+    }
+  ],
+  "versionComparison": [
+    {
+      "name": "本周同星期对比",
+      "start": "2026-09-14",
+      "end": "2026-09-18",
+      "note": "09/14为小红书换图过渡日；09/18起叠加卤味测试。",
+      "rows": [
+        {
+          "name": "刘子首版 · 两店",
+          "stores": [
+            "福州台江三迪中心店（卫星店）",
+            "福州仓山金城湾广场店（卫星店）"
+          ],
+          "platform": "meituan",
+          "weekly": {
+            "label": "测试店 · 对上周",
+            "period": "2026-09-07—2026-09-11",
+            "before": {
+              "exposure": 10290,
+              "entry": 760,
+              "order": 181,
+              "valid_order": 185,
+              "revenue": 6094.929999999999,
+              "turnover": 9889.5,
+              "entry_rate": 7.38581146744412,
+              "order_rate": 23.81578947368421,
+              "expected": 10,
+              "received": 10,
+              "funnelRows": 10
+            },
+            "after": {
+              "exposure": 10298,
+              "entry": 763,
+              "order": 152,
+              "valid_order": 154,
+              "revenue": 5056.650000000001,
+              "turnover": 8161.799999999999,
+              "entry_rate": 7.409205671004078,
+              "order_rate": 19.921363040629096,
+              "expected": 10,
+              "received": 10,
+              "funnelRows": 10
+            },
+            "count": 2,
+            "total": 2,
+            "entry": 0.3167452034631202,
+            "order": -16.35228778520379
+          },
+          "august": {
+            "label": "测试店 · 对八月同日期",
+            "period": "2026-08-14—2026-08-18",
+            "before": {
+              "exposure": 13456,
+              "entry": 888,
+              "order": 177,
+              "valid_order": 182,
+              "revenue": 7169.360000000001,
+              "turnover": 10790.3,
+              "entry_rate": 6.5992865636147435,
+              "order_rate": 19.93243243243243,
+              "expected": 10,
+              "received": 10,
+              "funnelRows": 10
+            },
+            "after": {
+              "exposure": 10298,
+              "entry": 763,
+              "order": 152,
+              "valid_order": 154,
+              "revenue": 5056.650000000001,
+              "turnover": 8161.799999999999,
+              "entry_rate": 7.409205671004078,
+              "order_rate": 19.921363040629096,
+              "expected": 10,
+              "received": 10,
+              "funnelRows": 10
+            },
+            "count": 2,
+            "total": 2,
+            "entry": 12.272828275935677,
+            "order": -0.0555345758268988
+          }
+        },
+        {
+          "name": "刘子首版 · 两店",
+          "stores": [
+            "福州台江三迪中心店（卫星店）",
+            "福州仓山金城湾广场店（卫星店）"
+          ],
+          "platform": "taobao",
+          "weekly": {
+            "label": "测试店 · 对上周",
+            "period": "2026-09-07—2026-09-11",
+            "before": {
+              "exposure": 211139,
+              "entry": 9129,
+              "order": 984,
+              "valid_order": 985,
+              "revenue": 29686.34,
+              "turnover": 48482.67,
+              "entry_rate": 4.323691975428509,
+              "order_rate": 10.778836674334539,
+              "expected": 10,
+              "received": 10,
+              "funnelRows": 10
+            },
+            "after": {
+              "exposure": 276666,
+              "entry": 11705,
+              "order": 1318,
+              "valid_order": 1320,
+              "revenue": 39834.350000000006,
+              "turnover": 65253.70999999999,
+              "entry_rate": 4.230733086103822,
+              "order_rate": 11.260145237078172,
+              "expected": 10,
+              "received": 10,
+              "funnelRows": 10
+            },
+            "count": 2,
+            "total": 2,
+            "entry": -2.14998870994908,
+            "order": 4.465310842770953
+          },
+          "august": {
+            "label": "测试店 · 对八月同日期",
+            "period": "2026-08-14—2026-08-18",
+            "before": {
+              "exposure": 167021,
+              "entry": 8304,
+              "order": 904,
+              "valid_order": 904,
+              "revenue": 33015.270000000004,
+              "turnover": 51044.81,
+              "entry_rate": 4.971829889654594,
+              "order_rate": 10.886319845857418,
+              "expected": 10,
+              "received": 10,
+              "funnelRows": 10
+            },
+            "after": {
+              "exposure": 276666,
+              "entry": 11705,
+              "order": 1318,
+              "valid_order": 1320,
+              "revenue": 39834.350000000006,
+              "turnover": 65253.70999999999,
+              "entry_rate": 4.230733086103822,
+              "order_rate": 11.260145237078172,
+              "expected": 10,
+              "received": 10,
+              "funnelRows": 10
+            },
+            "count": 2,
+            "total": 2,
+            "entry": -14.90591633259315,
+            "order": 3.433900496346398
+          }
+        },
+        {
+          "name": "刘子首版 · 两店",
+          "stores": [
+            "福州台江三迪中心店（卫星店）",
+            "福州仓山金城湾广场店（卫星店）"
+          ],
+          "platform": "jd",
+          "weekly": {
+            "label": "测试店 · 对上周",
+            "period": "2026-09-07—2026-09-11",
+            "before": {
+              "exposure": null,
+              "entry": null,
+              "order": null,
+              "valid_order": 20,
+              "revenue": 326.54999999999995,
+              "turnover": 638.6,
+              "entry_rate": null,
+              "order_rate": null,
+              "expected": 5,
+              "received": 5,
+              "funnelRows": 0
+            },
+            "after": {
+              "exposure": null,
+              "entry": null,
+              "order": null,
+              "valid_order": 13,
+              "revenue": 169.07999999999998,
+              "turnover": 391.5,
+              "entry_rate": null,
+              "order_rate": null,
+              "expected": 5,
+              "received": 5,
+              "funnelRows": 0
+            },
+            "count": 1,
+            "total": 2,
+            "entry": null,
+            "order": null
+          },
+          "august": {
+            "label": "测试店 · 对八月同日期",
+            "period": "2026-08-14—2026-08-18",
+            "before": {
+              "exposure": null,
+              "entry": null,
+              "order": null,
+              "valid_order": 48,
+              "revenue": 862.4,
+              "turnover": 1632.4000000000003,
+              "entry_rate": null,
+              "order_rate": null,
+              "expected": 10,
+              "received": 10,
+              "funnelRows": 0
+            },
+            "after": {
+              "exposure": null,
+              "entry": null,
+              "order": null,
+              "valid_order": 30,
+              "revenue": 408.21,
+              "turnover": 923.0000000000001,
+              "entry_rate": null,
+              "order_rate": null,
+              "expected": 10,
+              "received": 10,
+              "funnelRows": 0
+            },
+            "count": 2,
+            "total": 2,
+            "entry": null,
+            "order": null
+          }
+        },
+        {
+          "name": "小红书版 · 两店",
+          "stores": [
+            "福州仓山集祥天地店（卫星店）",
+            "福州金山万科里店（卫星店）"
+          ],
+          "platform": "meituan",
+          "weekly": {
+            "label": "测试店 · 对上周",
+            "period": "2026-09-07—2026-09-11",
+            "before": {
+              "exposure": 11794,
+              "entry": 1059,
+              "order": 281,
+              "valid_order": 284,
+              "revenue": 9008.3,
+              "turnover": 14912.999999999998,
+              "entry_rate": 8.979141936577921,
+              "order_rate": 26.534466477809254,
+              "expected": 10,
+              "received": 10,
+              "funnelRows": 10
+            },
+            "after": {
+              "exposure": 24781,
+              "entry": 1825,
+              "order": 420,
+              "valid_order": 425,
+              "revenue": 14300.84,
+              "turnover": 22686,
+              "entry_rate": 7.364513135063152,
+              "order_rate": 23.013698630136986,
+              "expected": 10,
+              "received": 10,
+              "funnelRows": 10
+            },
+            "count": 2,
+            "total": 2,
+            "entry": -17.981994414603577,
+            "order": -13.26865889923463
+          },
+          "august": {
+            "label": "测试店 · 对八月同日期",
+            "period": "2026-08-14—2026-08-18",
+            "before": {
+              "exposure": 37312,
+              "entry": 2406,
+              "order": 531,
+              "valid_order": 541,
+              "revenue": 20755.029999999995,
+              "turnover": 32621.2,
+              "entry_rate": 6.448327615780445,
+              "order_rate": 22.069825436408976,
+              "expected": 10,
+              "received": 10,
+              "funnelRows": 10
+            },
+            "after": {
+              "exposure": 24781,
+              "entry": 1825,
+              "order": 420,
+              "valid_order": 425,
+              "revenue": 14300.84,
+              "turnover": 22686,
+              "entry_rate": 7.364513135063152,
+              "order_rate": 23.013698630136986,
+              "expected": 10,
+              "received": 10,
+              "funnelRows": 10
+            },
+            "count": 2,
+            "total": 2,
+            "entry": 14.208110596623591,
+            "order": 4.2767587648014915
+          }
+        },
+        {
+          "name": "小红书版 · 两店",
+          "stores": [
+            "福州仓山集祥天地店（卫星店）",
+            "福州金山万科里店（卫星店）"
+          ],
+          "platform": "taobao",
+          "weekly": {
+            "label": "测试店 · 对上周",
+            "period": "2026-09-07—2026-09-11",
+            "before": {
+              "exposure": 107935,
+              "entry": 5890,
+              "order": 840,
+              "valid_order": 850,
+              "revenue": 28434.36,
+              "turnover": 45634.729999999996,
+              "entry_rate": 5.456988002038264,
+              "order_rate": 14.261460101867574,
+              "expected": 10,
+              "received": 10,
+              "funnelRows": 10
+            },
+            "after": {
+              "exposure": 178208,
+              "entry": 8486,
+              "order": 1101,
+              "valid_order": 1109,
+              "revenue": 35875.229999999996,
+              "turnover": 57582.90000000001,
+              "entry_rate": 4.76185131980607,
+              "order_rate": 12.974310629271743,
+              "expected": 10,
+              "received": 10,
+              "funnelRows": 10
+            },
+            "count": 2,
+            "total": 2,
+            "entry": -12.738468216762621,
+            "order": -9.025369516177905
+          },
+          "august": {
+            "label": "测试店 · 对八月同日期",
+            "period": "2026-08-14—2026-08-18",
+            "before": {
+              "exposure": 217692,
+              "entry": 11215,
+              "order": 1681,
+              "valid_order": 1695,
+              "revenue": 59300.17999999999,
+              "turnover": 92362.23,
+              "entry_rate": 5.151774066111754,
+              "order_rate": 14.988854213107444,
+              "expected": 10,
+              "received": 10,
+              "funnelRows": 10
+            },
+            "after": {
+              "exposure": 178208,
+              "entry": 8486,
+              "order": 1101,
+              "valid_order": 1109,
+              "revenue": 35875.229999999996,
+              "turnover": 57582.90000000001,
+              "entry_rate": 4.76185131980607,
+              "order_rate": 12.974310629271743,
+              "expected": 10,
+              "received": 10,
+              "funnelRows": 10
+            },
+            "count": 2,
+            "total": 2,
+            "entry": -7.568708202298446,
+            "order": -13.440277390075783
+          }
+        },
+        {
+          "name": "小红书版 · 两店",
+          "stores": [
+            "福州仓山集祥天地店（卫星店）",
+            "福州金山万科里店（卫星店）"
+          ],
+          "platform": "jd",
+          "weekly": {
+            "label": "测试店 · 对上周",
+            "period": "2026-09-07—2026-09-11",
+            "before": {
+              "exposure": null,
+              "entry": null,
+              "order": null,
+              "valid_order": 41,
+              "revenue": 750.77,
+              "turnover": 1463,
+              "entry_rate": null,
+              "order_rate": null,
+              "expected": 5,
+              "received": 5,
+              "funnelRows": 0
+            },
+            "after": {
+              "exposure": null,
+              "entry": null,
+              "order": null,
+              "valid_order": 28,
+              "revenue": 455.29999999999995,
+              "turnover": 876.1,
+              "entry_rate": null,
+              "order_rate": null,
+              "expected": 5,
+              "received": 5,
+              "funnelRows": 0
+            },
+            "count": 1,
+            "total": 2,
+            "entry": null,
+            "order": null
+          },
+          "august": {
+            "label": "测试店 · 对八月同日期",
+            "period": "2026-08-14—2026-08-18",
+            "before": {
+              "exposure": null,
+              "entry": null,
+              "order": null,
+              "valid_order": 151,
+              "revenue": 2156.34,
+              "turnover": 4589.5,
+              "entry_rate": null,
+              "order_rate": null,
+              "expected": 10,
+              "received": 10,
+              "funnelRows": 0
+            },
+            "after": {
+              "exposure": null,
+              "entry": null,
+              "order": null,
+              "valid_order": 73,
+              "revenue": 1121.6100000000001,
+              "turnover": 2269.2,
+              "entry_rate": null,
+              "order_rate": null,
+              "expected": 10,
+              "received": 10,
+              "funnelRows": 0
+            },
+            "count": 2,
+            "total": 2,
+            "entry": null,
+            "order": null
+          }
+        }
+      ],
+      "base": "2026-09-07—2026-09-11",
+      "conclusions": [
+        "美团｜进店：小红书组的相对变化低于刘子组18.30个百分点；下单：小红书组的相对变化高于刘子组3.08个百分点。这是两组相对变化之差，不是设计的因果收益。",
+        "淘宝｜进店：小红书组的相对变化低于刘子组10.59个百分点；下单：小红书组的相对变化低于刘子组13.49个百分点。这是两组相对变化之差，不是设计的因果收益。"
+      ]
+    },
+    {
+      "name": "完整换图后 · 卤味上线前",
+      "start": "2026-09-15",
+      "end": "2026-09-17",
+      "note": "排除09/14过渡日及09/18起卤味影响；仍是观察性比较。",
+      "rows": [
+        {
+          "name": "刘子首版 · 两店",
+          "stores": [
+            "福州台江三迪中心店（卫星店）",
+            "福州仓山金城湾广场店（卫星店）"
+          ],
+          "platform": "meituan",
+          "weekly": {
+            "label": "测试店 · 对上周",
+            "period": "2026-09-08—2026-09-10",
+            "before": {
+              "exposure": 6129,
+              "entry": 443,
+              "order": 122,
+              "valid_order": 123,
+              "revenue": 4072.1800000000003,
+              "turnover": 6592.500000000001,
+              "entry_rate": 7.227932778593571,
+              "order_rate": 27.539503386004515,
+              "expected": 6,
+              "received": 6,
+              "funnelRows": 6
+            },
+            "after": {
+              "exposure": 6378,
+              "entry": 470,
+              "order": 94,
+              "valid_order": 95,
+              "revenue": 3282.29,
+              "turnover": 5209,
+              "entry_rate": 7.369081216682345,
+              "order_rate": 20,
+              "expected": 6,
+              "received": 6,
+              "funnelRows": 6
+            },
+            "count": 2,
+            "total": 2,
+            "entry": 1.9528189098106052,
+            "order": -27.377049180327873
+          },
+          "august": {
+            "label": "测试店 · 对八月同日期",
+            "period": "2026-08-15—2026-08-17",
+            "before": {
+              "exposure": 8149,
+              "entry": 519,
+              "order": 111,
+              "valid_order": 115,
+              "revenue": 4472.16,
+              "turnover": 6658.2,
+              "entry_rate": 6.368879617130936,
+              "order_rate": 21.38728323699422,
+              "expected": 6,
+              "received": 6,
+              "funnelRows": 6
+            },
+            "after": {
+              "exposure": 6378,
+              "entry": 470,
+              "order": 94,
+              "valid_order": 95,
+              "revenue": 3282.29,
+              "turnover": 5209,
+              "entry_rate": 7.369081216682345,
+              "order_rate": 20,
+              "expected": 6,
+              "received": 6,
+              "funnelRows": 6
+            },
+            "count": 2,
+            "total": 2,
+            "entry": 15.70451413245555,
+            "order": -6.486486486486498
+          }
+        },
+        {
+          "name": "刘子首版 · 两店",
+          "stores": [
+            "福州台江三迪中心店（卫星店）",
+            "福州仓山金城湾广场店（卫星店）"
+          ],
+          "platform": "taobao",
+          "weekly": {
+            "label": "测试店 · 对上周",
+            "period": "2026-09-08—2026-09-10",
+            "before": {
+              "exposure": 121006,
+              "entry": 5329,
+              "order": 560,
+              "valid_order": 561,
+              "revenue": 16496.68,
+              "turnover": 27081.1,
+              "entry_rate": 4.403913855511297,
+              "order_rate": 10.508538187277162,
+              "expected": 6,
+              "received": 6,
+              "funnelRows": 6
+            },
+            "after": {
+              "exposure": 164779,
+              "entry": 6932,
+              "order": 774,
+              "valid_order": 771,
+              "revenue": 23228.84,
+              "turnover": 38013.11,
+              "entry_rate": 4.206846746248004,
+              "order_rate": 11.165608770917485,
+              "expected": 6,
+              "received": 6,
+              "funnelRows": 6
+            },
+            "count": 2,
+            "total": 2,
+            "entry": -4.47481753115293,
+            "order": 6.252730607534418
+          },
+          "august": {
+            "label": "测试店 · 对八月同日期",
+            "period": "2026-08-15—2026-08-17",
+            "before": {
+              "exposure": 100822,
+              "entry": 5123,
+              "order": 541,
+              "valid_order": 542,
+              "revenue": 19915.39,
+              "turnover": 30868.609999999997,
+              "entry_rate": 5.081232270734562,
+              "order_rate": 10.56021862190123,
+              "expected": 6,
+              "received": 6,
+              "funnelRows": 6
+            },
+            "after": {
+              "exposure": 164779,
+              "entry": 6932,
+              "order": 774,
+              "valid_order": 771,
+              "revenue": 23228.84,
+              "turnover": 38013.11,
+              "entry_rate": 4.206846746248004,
+              "order_rate": 11.165608770917485,
+              "expected": 6,
+              "received": 6,
+              "funnelRows": 6
+            },
+            "count": 2,
+            "total": 2,
+            "entry": -17.20813924454103,
+            "order": 5.732742575619731
+          }
+        },
+        {
+          "name": "刘子首版 · 两店",
+          "stores": [
+            "福州台江三迪中心店（卫星店）",
+            "福州仓山金城湾广场店（卫星店）"
+          ],
+          "platform": "jd",
+          "weekly": {
+            "label": "测试店 · 对上周",
+            "period": "2026-09-08—2026-09-10",
+            "before": {
+              "exposure": null,
+              "entry": null,
+              "order": null,
+              "valid_order": 8,
+              "revenue": 109.9,
+              "turnover": 233.2,
+              "entry_rate": null,
+              "order_rate": null,
+              "expected": 3,
+              "received": 3,
+              "funnelRows": 0
+            },
+            "after": {
+              "exposure": null,
+              "entry": null,
+              "order": null,
+              "valid_order": 4,
+              "revenue": 62.54,
+              "turnover": 132.39999999999998,
+              "entry_rate": null,
+              "order_rate": null,
+              "expected": 3,
+              "received": 3,
+              "funnelRows": 0
+            },
+            "count": 1,
+            "total": 2,
+            "entry": null,
+            "order": null
+          },
+          "august": {
+            "label": "测试店 · 对八月同日期",
+            "period": "2026-08-15—2026-08-17",
+            "before": {
+              "exposure": null,
+              "entry": null,
+              "order": null,
+              "valid_order": 29,
+              "revenue": 516.01,
+              "turnover": 981.2,
+              "entry_rate": null,
+              "order_rate": null,
+              "expected": 6,
+              "received": 6,
+              "funnelRows": 0
+            },
+            "after": {
+              "exposure": null,
+              "entry": null,
+              "order": null,
+              "valid_order": 15,
+              "revenue": 214.93,
+              "turnover": 478.8999999999999,
+              "entry_rate": null,
+              "order_rate": null,
+              "expected": 6,
+              "received": 6,
+              "funnelRows": 0
+            },
+            "count": 2,
+            "total": 2,
+            "entry": null,
+            "order": null
+          }
+        },
+        {
+          "name": "小红书版 · 两店",
+          "stores": [
+            "福州仓山集祥天地店（卫星店）",
+            "福州金山万科里店（卫星店）"
+          ],
+          "platform": "meituan",
+          "weekly": {
+            "label": "测试店 · 对上周",
+            "period": "2026-09-08—2026-09-10",
+            "before": {
+              "exposure": 7167,
+              "entry": 644,
+              "order": 160,
+              "valid_order": 162,
+              "revenue": 5200.32,
+              "turnover": 8578.5,
+              "entry_rate": 8.985628575415097,
+              "order_rate": 24.84472049689441,
+              "expected": 6,
+              "received": 6,
+              "funnelRows": 6
+            },
+            "after": {
+              "exposure": 16218,
+              "entry": 1134,
+              "order": 254,
+              "valid_order": 256,
+              "revenue": 8796.710000000001,
+              "turnover": 13936.699999999999,
+              "entry_rate": 6.992230854605993,
+              "order_rate": 22.39858906525573,
+              "expected": 6,
+              "received": 6,
+              "funnelRows": 6
+            },
+            "count": 2,
+            "total": 2,
+            "entry": -22.184287989190754,
+            "order": -9.845679012345688
+          },
+          "august": {
+            "label": "测试店 · 对八月同日期",
+            "period": "2026-08-15—2026-08-17",
+            "before": {
+              "exposure": 22566,
+              "entry": 1497,
+              "order": 333,
+              "valid_order": 337,
+              "revenue": 13428.51,
+              "turnover": 20915.100000000002,
+              "entry_rate": 6.633873969688913,
+              "order_rate": 22.24448897795591,
+              "expected": 6,
+              "received": 6,
+              "funnelRows": 6
+            },
+            "after": {
+              "exposure": 16218,
+              "entry": 1134,
+              "order": 254,
+              "valid_order": 256,
+              "revenue": 8796.710000000001,
+              "turnover": 13936.699999999999,
+              "entry_rate": 6.992230854605993,
+              "order_rate": 22.39858906525573,
+              "expected": 6,
+              "received": 6,
+              "funnelRows": 6
+            },
+            "count": 2,
+            "total": 2,
+            "entry": 5.40192482634525,
+            "order": 0.6927562483117988
+          }
+        },
+        {
+          "name": "小红书版 · 两店",
+          "stores": [
+            "福州仓山集祥天地店（卫星店）",
+            "福州金山万科里店（卫星店）"
+          ],
+          "platform": "taobao",
+          "weekly": {
+            "label": "测试店 · 对上周",
+            "period": "2026-09-08—2026-09-10",
+            "before": {
+              "exposure": 66314,
+              "entry": 3582,
+              "order": 511,
+              "valid_order": 516,
+              "revenue": 16997.59,
+              "turnover": 27197.2,
+              "entry_rate": 5.4015743281961575,
+              "order_rate": 14.26577331099944,
+              "expected": 6,
+              "received": 6,
+              "funnelRows": 6
+            },
+            "after": {
+              "exposure": 106246,
+              "entry": 4964,
+              "order": 624,
+              "valid_order": 625,
+              "revenue": 20715.579999999998,
+              "turnover": 33026.200000000004,
+              "entry_rate": 4.672175893680703,
+              "order_rate": 12.570507655116842,
+              "expected": 6,
+              "received": 6,
+              "funnelRows": 6
+            },
+            "count": 2,
+            "total": 2,
+            "entry": -13.503441593092646,
+            "order": -11.883447317752383
+          },
+          "august": {
+            "label": "测试店 · 对八月同日期",
+            "period": "2026-08-15—2026-08-17",
+            "before": {
+              "exposure": 126544,
+              "entry": 6728,
+              "order": 1029,
+              "valid_order": 1036,
+              "revenue": 36867.91,
+              "turnover": 57530.68000000001,
+              "entry_rate": 5.316727778480212,
+              "order_rate": 15.294292508917955,
+              "expected": 6,
+              "received": 6,
+              "funnelRows": 6
+            },
+            "after": {
+              "exposure": 106246,
+              "entry": 4964,
+              "order": 624,
+              "valid_order": 625,
+              "revenue": 20715.579999999998,
+              "turnover": 33026.200000000004,
+              "entry_rate": 4.672175893680703,
+              "order_rate": 12.570507655116842,
+              "expected": 6,
+              "received": 6,
+              "funnelRows": 6
+            },
+            "count": 2,
+            "total": 2,
+            "entry": -12.123093595432389,
+            "order": -17.809158888604358
+          }
+        },
+        {
+          "name": "小红书版 · 两店",
+          "stores": [
+            "福州仓山集祥天地店（卫星店）",
+            "福州金山万科里店（卫星店）"
+          ],
+          "platform": "jd",
+          "weekly": {
+            "label": "测试店 · 对上周",
+            "period": "2026-09-08—2026-09-10",
+            "before": {
+              "exposure": null,
+              "entry": null,
+              "order": null,
+              "valid_order": 27,
+              "revenue": 480.19,
+              "turnover": 946.4,
+              "entry_rate": null,
+              "order_rate": null,
+              "expected": 3,
+              "received": 3,
+              "funnelRows": 0
+            },
+            "after": {
+              "exposure": null,
+              "entry": null,
+              "order": null,
+              "valid_order": 12,
+              "revenue": 169.62,
+              "turnover": 346.79999999999995,
+              "entry_rate": null,
+              "order_rate": null,
+              "expected": 3,
+              "received": 3,
+              "funnelRows": 0
+            },
+            "count": 1,
+            "total": 2,
+            "entry": null,
+            "order": null
+          },
+          "august": {
+            "label": "测试店 · 对八月同日期",
+            "period": "2026-08-15—2026-08-17",
+            "before": {
+              "exposure": null,
+              "entry": null,
+              "order": null,
+              "valid_order": 94,
+              "revenue": 1344.63,
+              "turnover": 2850.6,
+              "entry_rate": null,
+              "order_rate": null,
+              "expected": 6,
+              "received": 6,
+              "funnelRows": 0
+            },
+            "after": {
+              "exposure": null,
+              "entry": null,
+              "order": null,
+              "valid_order": 40,
+              "revenue": 562.46,
+              "turnover": 1174.5,
+              "entry_rate": null,
+              "order_rate": null,
+              "expected": 6,
+              "received": 6,
+              "funnelRows": 0
+            },
+            "count": 2,
+            "total": 2,
+            "entry": null,
+            "order": null
+          }
+        }
+      ],
+      "base": "2026-09-08—2026-09-10",
+      "conclusions": [
+        "美团｜进店：小红书组的相对变化低于刘子组24.14个百分点；下单：小红书组的相对变化高于刘子组17.53个百分点。这是两组相对变化之差，不是设计的因果收益。",
+        "淘宝｜进店：小红书组的相对变化低于刘子组9.03个百分点；下单：小红书组的相对变化低于刘子组18.14个百分点。这是两组相对变化之差，不是设计的因果收益。"
+      ]
+    },
+    {
+      "name": "卤味上线后",
+      "start": "2026-09-18",
+      "end": "2026-09-18",
+      "note": "图片与新品共同作用，不单独归因于设计。",
+      "rows": [
+        {
+          "name": "刘子首版 · 两店",
+          "stores": [
+            "福州台江三迪中心店（卫星店）",
+            "福州仓山金城湾广场店（卫星店）"
+          ],
+          "platform": "meituan",
+          "weekly": {
+            "label": "测试店 · 对上周",
+            "period": "2026-09-11—2026-09-11",
+            "before": {
+              "exposure": 1759,
+              "entry": 133,
+              "order": 27,
+              "valid_order": 29,
+              "revenue": 970.5899999999999,
+              "turnover": 1528.1,
+              "entry_rate": 7.5611142694712905,
+              "order_rate": 20.30075187969925,
+              "expected": 2,
+              "received": 2,
+              "funnelRows": 2
+            },
+            "after": {
+              "exposure": 2234,
+              "entry": 172,
+              "order": 34,
+              "valid_order": 34,
+              "revenue": 1035.74,
+              "turnover": 1667.7,
+              "entry_rate": 7.699194270367054,
+              "order_rate": 19.767441860465116,
+              "expected": 2,
+              "received": 2,
+              "funnelRows": 2
+            },
+            "count": 2,
+            "total": 2,
+            "entry": 1.8261858765086458,
+            "order": -2.627045650301474
+          },
+          "august": {
+            "label": "测试店 · 对八月同日期",
+            "period": "2026-08-18—2026-08-18",
+            "before": {
+              "exposure": 2383,
+              "entry": 181,
+              "order": 35,
+              "valid_order": 35,
+              "revenue": 1282.12,
+              "turnover": 2048.2,
+              "entry_rate": 7.595467897608057,
+              "order_rate": 19.337016574585636,
+              "expected": 2,
+              "received": 2,
+              "funnelRows": 2
+            },
+            "after": {
+              "exposure": 2234,
+              "entry": 172,
+              "order": 34,
+              "valid_order": 34,
+              "revenue": 1035.74,
+              "turnover": 1667.7,
+              "entry_rate": 7.699194270367054,
+              "order_rate": 19.767441860465116,
+              "expected": 2,
+              "received": 2,
+              "funnelRows": 2
+            },
+            "count": 2,
+            "total": 2,
+            "entry": 1.3656350623463487,
+            "order": 2.225913621262454
+          }
+        },
+        {
+          "name": "刘子首版 · 两店",
+          "stores": [
+            "福州台江三迪中心店（卫星店）",
+            "福州仓山金城湾广场店（卫星店）"
+          ],
+          "platform": "taobao",
+          "weekly": {
+            "label": "测试店 · 对上周",
+            "period": "2026-09-11—2026-09-11",
+            "before": {
+              "exposure": 50288,
+              "entry": 1998,
+              "order": 219,
+              "valid_order": 218,
+              "revenue": 6820.25,
+              "turnover": 11011.470000000001,
+              "entry_rate": 3.9731148584155265,
+              "order_rate": 10.96096096096096,
+              "expected": 2,
+              "received": 2,
+              "funnelRows": 2
+            },
+            "after": {
+              "exposure": 68121,
+              "entry": 2899,
+              "order": 334,
+              "valid_order": 337,
+              "revenue": 10433.19,
+              "turnover": 17174.3,
+              "entry_rate": 4.255662717810954,
+              "order_rate": 11.521214211797172,
+              "expected": 2,
+              "received": 2,
+              "funnelRows": 2
+            },
+            "count": 2,
+            "total": 2,
+            "entry": 7.111494871510127,
+            "order": 5.111351576122147
+          },
+          "august": {
+            "label": "测试店 · 对八月同日期",
+            "period": "2026-08-18—2026-08-18",
+            "before": {
+              "exposure": 41432,
+              "entry": 1896,
+              "order": 213,
+              "valid_order": 211,
+              "revenue": 7476.88,
+              "turnover": 11539.800000000001,
+              "entry_rate": 4.576173006371887,
+              "order_rate": 11.234177215189874,
+              "expected": 2,
+              "received": 2,
+              "funnelRows": 2
+            },
+            "after": {
+              "exposure": 68121,
+              "entry": 2899,
+              "order": 334,
+              "valid_order": 337,
+              "revenue": 10433.19,
+              "turnover": 17174.3,
+              "entry_rate": 4.255662717810954,
+              "order_rate": 11.521214211797172,
+              "expected": 2,
+              "received": 2,
+              "funnelRows": 2
+            },
+            "count": 2,
+            "total": 2,
+            "entry": -7.003893605304102,
+            "order": 2.555033547264962
+          }
+        },
+        {
+          "name": "刘子首版 · 两店",
+          "stores": [
+            "福州台江三迪中心店（卫星店）",
+            "福州仓山金城湾广场店（卫星店）"
+          ],
+          "platform": "jd",
+          "weekly": {
+            "label": "测试店 · 对上周",
+            "period": "2026-09-11—2026-09-11",
+            "before": {
+              "exposure": null,
+              "entry": null,
+              "order": null,
+              "valid_order": 11,
+              "revenue": 186.02999999999997,
+              "turnover": 363.3,
+              "entry_rate": null,
+              "order_rate": null,
+              "expected": 2,
+              "received": 2,
+              "funnelRows": 0
+            },
+            "after": {
+              "exposure": null,
+              "entry": null,
+              "order": null,
+              "valid_order": 10,
+              "revenue": 117.24000000000001,
+              "turnover": 285.8,
+              "entry_rate": null,
+              "order_rate": null,
+              "expected": 2,
+              "received": 2,
+              "funnelRows": 0
+            },
+            "count": 2,
+            "total": 2,
+            "entry": null,
+            "order": null
+          },
+          "august": {
+            "label": "测试店 · 对八月同日期",
+            "period": "2026-08-18—2026-08-18",
+            "before": {
+              "exposure": null,
+              "entry": null,
+              "order": null,
+              "valid_order": 12,
+              "revenue": 231.14000000000001,
+              "turnover": 421.3,
+              "entry_rate": null,
+              "order_rate": null,
+              "expected": 2,
+              "received": 2,
+              "funnelRows": 0
+            },
+            "after": {
+              "exposure": null,
+              "entry": null,
+              "order": null,
+              "valid_order": 10,
+              "revenue": 117.24000000000001,
+              "turnover": 285.8,
+              "entry_rate": null,
+              "order_rate": null,
+              "expected": 2,
+              "received": 2,
+              "funnelRows": 0
+            },
+            "count": 2,
+            "total": 2,
+            "entry": null,
+            "order": null
+          }
+        },
+        {
+          "name": "小红书版 · 两店",
+          "stores": [
+            "福州仓山集祥天地店（卫星店）",
+            "福州金山万科里店（卫星店）"
+          ],
+          "platform": "meituan",
+          "weekly": {
+            "label": "测试店 · 对上周",
+            "period": "2026-09-11—2026-09-11",
+            "before": {
+              "exposure": 2237,
+              "entry": 193,
+              "order": 57,
+              "valid_order": 57,
+              "revenue": 1823.5500000000002,
+              "turnover": 3005.1,
+              "entry_rate": 8.627626285203398,
+              "order_rate": 29.533678756476682,
+              "expected": 2,
+              "received": 2,
+              "funnelRows": 2
+            },
+            "after": {
+              "exposure": 6535,
+              "entry": 490,
+              "order": 113,
+              "valid_order": 116,
+              "revenue": 4008.6,
+              "turnover": 6209.3,
+              "entry_rate": 7.4980872226472846,
+              "order_rate": 23.06122448979592,
+              "expected": 2,
+              "received": 2,
+              "funnelRows": 2
+            },
+            "count": 2,
+            "total": 2,
+            "entry": -13.092118564445732,
+            "order": -21.91550304332258
+          },
+          "august": {
+            "label": "测试店 · 对八月同日期",
+            "period": "2026-08-18—2026-08-18",
+            "before": {
+              "exposure": 7463,
+              "entry": 471,
+              "order": 103,
+              "valid_order": 109,
+              "revenue": 4042.97,
+              "turnover": 6465.200000000001,
+              "entry_rate": 6.311134932332842,
+              "order_rate": 21.86836518046709,
+              "expected": 2,
+              "received": 2,
+              "funnelRows": 2
+            },
+            "after": {
+              "exposure": 6535,
+              "entry": 490,
+              "order": 113,
+              "valid_order": 116,
+              "revenue": 4008.6,
+              "turnover": 6209.3,
+              "entry_rate": 7.4980872226472846,
+              "order_rate": 23.06122448979592,
+              "expected": 2,
+              "received": 2,
+              "funnelRows": 2
+            },
+            "count": 2,
+            "total": 2,
+            "entry": 18.807271640375124,
+            "order": 5.454725579552222
+          }
+        },
+        {
+          "name": "小红书版 · 两店",
+          "stores": [
+            "福州仓山集祥天地店（卫星店）",
+            "福州金山万科里店（卫星店）"
+          ],
+          "platform": "taobao",
+          "weekly": {
+            "label": "测试店 · 对上周",
+            "period": "2026-09-11—2026-09-11",
+            "before": {
+              "exposure": 27979,
+              "entry": 1484,
+              "order": 198,
+              "valid_order": 203,
+              "revenue": 6875.42,
+              "turnover": 10986.93,
+              "entry_rate": 5.3039779834876155,
+              "order_rate": 13.34231805929919,
+              "expected": 2,
+              "received": 2,
+              "funnelRows": 2
+            },
+            "after": {
+              "exposure": 43647,
+              "entry": 2027,
+              "order": 261,
+              "valid_order": 267,
+              "revenue": 8319.01,
+              "turnover": 13602,
+              "entry_rate": 4.644076339725525,
+              "order_rate": 12.876171682289097,
+              "expected": 2,
+              "received": 2,
+              "funnelRows": 2
+            },
+            "count": 2,
+            "total": 2,
+            "entry": -12.441636179797522,
+            "order": -3.4937435529443284
+          },
+          "august": {
+            "label": "测试店 · 对八月同日期",
+            "period": "2026-08-18—2026-08-18",
+            "before": {
+              "exposure": 36482,
+              "entry": 2013,
+              "order": 279,
+              "valid_order": 283,
+              "revenue": 9910.439999999999,
+              "turnover": 15242,
+              "entry_rate": 5.517789594868702,
+              "order_rate": 13.859910581222056,
+              "expected": 2,
+              "received": 2,
+              "funnelRows": 2
+            },
+            "after": {
+              "exposure": 43647,
+              "entry": 2027,
+              "order": 261,
+              "valid_order": 267,
+              "revenue": 8319.01,
+              "turnover": 13602,
+              "entry_rate": 4.644076339725525,
+              "order_rate": 12.876171682289097,
+              "expected": 2,
+              "received": 2,
+              "funnelRows": 2
+            },
+            "count": 2,
+            "total": 2,
+            "entry": -15.834479371154197,
+            "order": -7.097729044989409
+          }
+        },
+        {
+          "name": "小红书版 · 两店",
+          "stores": [
+            "福州仓山集祥天地店（卫星店）",
+            "福州金山万科里店（卫星店）"
+          ],
+          "platform": "jd",
+          "weekly": {
+            "label": "测试店 · 对上周",
+            "period": "2026-09-11—2026-09-11",
+            "before": {
+              "exposure": null,
+              "entry": null,
+              "order": null,
+              "valid_order": 17,
+              "revenue": 255.14,
+              "turnover": 533.1,
+              "entry_rate": null,
+              "order_rate": null,
+              "expected": 2,
+              "received": 2,
+              "funnelRows": 0
+            },
+            "after": {
+              "exposure": null,
+              "entry": null,
+              "order": null,
+              "valid_order": 16,
+              "revenue": 307.07,
+              "turnover": 568.4,
+              "entry_rate": null,
+              "order_rate": null,
+              "expected": 2,
+              "received": 2,
+              "funnelRows": 0
+            },
+            "count": 2,
+            "total": 2,
+            "entry": null,
+            "order": null
+          },
+          "august": {
+            "label": "测试店 · 对八月同日期",
+            "period": "2026-08-18—2026-08-18",
+            "before": {
+              "exposure": null,
+              "entry": null,
+              "order": null,
+              "valid_order": 34,
+              "revenue": 467.72,
+              "turnover": 1023.2,
+              "entry_rate": null,
+              "order_rate": null,
+              "expected": 2,
+              "received": 2,
+              "funnelRows": 0
+            },
+            "after": {
+              "exposure": null,
+              "entry": null,
+              "order": null,
+              "valid_order": 16,
+              "revenue": 307.07,
+              "turnover": 568.4,
+              "entry_rate": null,
+              "order_rate": null,
+              "expected": 2,
+              "received": 2,
+              "funnelRows": 0
+            },
+            "count": 2,
+            "total": 2,
+            "entry": null,
+            "order": null
+          }
+        }
+      ],
+      "base": "2026-09-11—2026-09-11",
+      "conclusions": [
+        "美团｜进店：小红书组的相对变化低于刘子组14.92个百分点；下单：小红书组的相对变化低于刘子组19.29个百分点。这是两组相对变化之差，不是设计的因果收益。",
+        "淘宝｜进店：小红书组的相对变化低于刘子组19.55个百分点；下单：小红书组的相对变化低于刘子组8.61个百分点。这是两组相对变化之差，不是设计的因果收益。"
+      ]
+    }
+  ],
+  "health": {
+    "expected": "2026-09-18",
+    "lag": 0,
+    "label": "日报已接入至昨日",
+    "next": "每天 09:30 核对并更新；失败时保留上次数据"
+  },
+  "nextActions": [
+    {
+      "owner": "丽苏",
+      "action": "确定同期参照门店",
+      "urgent": true,
+      "testId": "T02"
+    },
+    {
+      "owner": "小雪",
+      "action": "请确认点击跳转正常、价格与活动已检查",
+      "urgent": true,
+      "testId": "T02"
+    },
+    {
+      "owner": "丽苏",
+      "action": "确定实验店、参照店与平台",
+      "urgent": false,
+      "testId": "T03"
+    },
+    {
+      "owner": "小雪",
+      "action": "补齐上线日期、调整内容与测试图",
+      "urgent": false,
+      "testId": "T03"
+    },
+    {
+      "owner": "丽苏",
+      "action": "确定实验店、参照店与平台",
+      "urgent": false,
+      "testId": "T04"
+    },
+    {
+      "owner": "小雪",
+      "action": "补齐上线日期、调整内容与测试图",
+      "urgent": false,
+      "testId": "T04"
+    },
+    {
+      "owner": "丽苏",
+      "action": "确定实验店、参照店与平台",
+      "urgent": false,
+      "testId": "T05"
+    },
+    {
+      "owner": "小雪",
+      "action": "补齐上线日期、调整内容与测试图",
+      "urgent": false,
+      "testId": "T05"
+    },
+    {
+      "owner": "丽苏",
+      "action": "确定实验店、参照店与平台",
+      "urgent": false,
+      "testId": "T06"
+    },
+    {
+      "owner": "小雪",
+      "action": "补齐上线日期、调整内容与测试图",
+      "urgent": false,
+      "testId": "T06"
+    },
+    {
+      "owner": "丽苏",
+      "action": "确定实验店、参照店与平台",
+      "urgent": false,
+      "testId": "T07"
+    },
+    {
+      "owner": "小雪",
+      "action": "补齐上线日期、调整内容与测试图",
+      "urgent": false,
+      "testId": "T07"
+    },
+    {
+      "owner": "丽苏",
+      "action": "确定实验店、参照店与平台",
+      "urgent": false,
+      "testId": "T08"
+    },
+    {
+      "owner": "小雪",
+      "action": "补齐上线日期、调整内容与测试图",
+      "urgent": false,
+      "testId": "T08"
+    }
+  ],
+  "rule": "阶段数据按同店同平台、相同天数计算；上线与完成只按正式执行记录。",
+  "sincePrevious": {
+    "date": "2026-09-17",
+    "dataAdvanced": true,
+    "changes": [
+      {
+        "test": "T02",
+        "note": "已接入日报 2 → 4 天"
+      },
+      {
+        "test": "T03",
+        "note": "门店范围更新：福州常规门店20家（名单待补） · 具体门店待丽苏确认"
+      },
+      {
+        "test": "T03",
+        "note": "观察周期：2026-09-21—2026-09-27（拟）"
+      },
+      {
+        "test": "T08",
+        "note": "首次纳入日报"
+      },
+      {
+        "test": "T02",
+        "note": "小红书版 · 两店观察：已上线；09/14 18:00。集祥天地、金山万科里已替换；09/15—09/21正式观察，09/22复盘。"
+      },
+      {
+        "test": "LU01",
+        "note": "四家卫星店 · 卤味测试：已上线；09/18。用户确认四店已上卤味。具体平台、SKU、上线时刻与测试结束日尚未提供。"
+      },
+      {
+        "test": "T03",
+        "note": "20家常规店 · 首版素材适配：素材已交付；预计09/20上线。沿用首版四店头像、横幅、招牌和文案；仅替换三张海报中的菜品图。"
+      },
+      {
+        "test": "T08",
+        "note": "T08 小红书版 · 另外两店延续：计划中；下一周 · 日期待确认。计划另外两家卫星店继续观察一周；与当前T02分开记录，不延长或改写T02。"
+      },
+      {
+        "test": "T04",
+        "note": "阿瓜版 · 只改变风格：设计排期；预计09/20出稿 · 9月最后一周上线。保留首版卫星店文案与菜品，只替换视觉风格；测试门店待定。"
+      }
+    ]
+  }
+}
