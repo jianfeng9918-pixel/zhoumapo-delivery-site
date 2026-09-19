@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "buildId": "2b161c07bf21df798db5",
+  "buildId": "357cc3217aeb793e14fb",
   "dataThrough": "2026-09-18",
   "digestDate": "2026-09-19",
   "lastSuccessAt": "2026-09-19T22:10:12.914622+08:00",
@@ -26,33 +26,33 @@
       }
     },
     "css": {
-      "file": "assets/style-abaec549b41d0d8b.gz",
-      "sha256": "abaec549b41d0d8b0810d51d0689e273003b448b5dccf491acaa9c431ca20f47",
-      "bytes": 72024,
+      "file": "assets/style-2ebe74808ecd8aa3.gz",
+      "sha256": "2ebe74808ecd8aa3e1391dd433841ffe18b4df35de4355a7b3bfd552e825f284",
+      "bytes": 72279,
       "fallback": {
-        "file": "assets/style-241bf3d13b898a43.css",
-        "sha256": "241bf3d13b898a4309786b115079d79e1827df95667c819aea9238db7b7efd82",
-        "bytes": 373237
+        "file": "assets/style-fef12e7bffce49ec.css",
+        "sha256": "fef12e7bffce49ecb0e2b7ad569c338e1f19a60531132855065315ec519c3ba0",
+        "bytes": 374689
       }
     },
     "app": {
-      "file": "assets/app-a200e2c86c4e3421.gz",
-      "sha256": "a200e2c86c4e34219082a19ea8f8b245f8d5931a86b58606d4d43f3654d242fc",
-      "bytes": 732169,
+      "file": "assets/app-4f825399525235da.gz",
+      "sha256": "4f825399525235da9ad8bac03fc2eb982e5295d3d2ece3442cc46fe347bdf23d",
+      "bytes": 734216,
       "fallback": {
-        "file": "assets/app-84729c62d6074696.js",
-        "sha256": "84729c62d60746961d14f55d835d840e67f44f0ce6c15e1e30663ca5212aeb37",
-        "bytes": 2367067
+        "file": "assets/app-8c34af275569c143.js",
+        "sha256": "8c34af275569c143334c57c4a5682102ff371644ef7eac45f8571b0782e666be",
+        "bytes": 2373673
       }
     },
     "digest": {
-      "file": "assets/test-digest-dd60c9a4d18ec94b.gz",
-      "sha256": "dd60c9a4d18ec94bf59c120407544be68add5ba40630d674b59daddb04d34c90",
-      "bytes": 15894,
+      "file": "assets/test-digest-46eb759cac53f4f9.gz",
+      "sha256": "46eb759cac53f4f9a22bbbb8b10663576acdb3f8388cd76182684fe29da6f6a4",
+      "bytes": 26133,
       "fallback": {
-        "file": "assets/test-digest-a2165e20949b7298.json",
-        "sha256": "a2165e20949b729855aefddc17e0f939407dfc85749bf32f79825023e5b513a8",
-        "bytes": 138017
+        "file": "assets/test-digest-356b9c8bd1256d53.json",
+        "sha256": "356b9c8bd1256d537366de710fa5ab99c2215ae336a34bdf93230f7363d8f36f",
+        "bytes": 262702
       }
     },
     "workspace": {
