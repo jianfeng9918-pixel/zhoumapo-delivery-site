@@ -1,18 +1,18 @@
 {
   "version": 1,
-  "buildId": "eab248f57431b8647559",
-  "dataThrough": "2026-09-18",
-  "digestDate": "2026-09-19",
-  "lastSuccessAt": "2026-09-19T22:10:12.914622+08:00",
+  "buildId": "40989b1c8aebf3677777",
+  "dataThrough": "2026-09-19",
+  "digestDate": "2026-09-20",
+  "lastSuccessAt": "2026-09-20T16:50:56.784032+08:00",
   "files": {
     "data": {
-      "file": "assets/data-72f3de33d384cf92.gz",
-      "sha256": "72f3de33d384cf92dd5d52379008bafda44f462a7df69817ce4b022fca2c4835",
-      "bytes": 1499266,
+      "file": "assets/data-08342c3c13f9a424.gz",
+      "sha256": "08342c3c13f9a424d939e6f8bed813f0e517d618083e6644cdb371e9ccd6bfcd",
+      "bytes": 1528130,
       "fallback": {
-        "file": "assets/data-d3952fc06213407f.json",
-        "sha256": "d3952fc06213407f29db36049c25f50f4e4e3be6624be8fa587b4c793be1171d",
-        "bytes": 6024361
+        "file": "assets/data-16f8aef7d561367d.json",
+        "sha256": "16f8aef7d561367dab9c32df2c03a3931bd699f4ca122c717eddb1ef134edc68",
+        "bytes": 6135371
       }
     },
     "business": {
@@ -46,13 +46,13 @@
       }
     },
     "digest": {
-      "file": "assets/test-digest-5b05ca80de14b7f4.gz",
-      "sha256": "5b05ca80de14b7f4d7db818e63c67505054522c62068183ff05132c907a8821f",
-      "bytes": 27242,
+      "file": "assets/test-digest-f260a5aee69f0107.gz",
+      "sha256": "f260a5aee69f010777d132ab24e1f9fb09929cd10040b0bf9d9dadd115e29ade",
+      "bytes": 26379,
       "fallback": {
-        "file": "assets/test-digest-aa1b29603b275f9b.json",
-        "sha256": "aa1b29603b275f9b4ec69a24a8dab093804d72fc88caf25656970ac799a0846b",
-        "bytes": 272434
+        "file": "assets/test-digest-3cc91c30e5624a87.json",
+        "sha256": "3cc91c30e5624a87b500bdd175e0b60463d967332b413fc666be6c8af848297f",
+        "bytes": 270174
       }
     },
     "workspace": {
