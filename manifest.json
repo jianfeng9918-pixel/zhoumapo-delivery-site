@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "buildId": "8df85d659a85ee7544f0",
+  "buildId": "c60182a8fed9bc1eea08",
   "dataThrough": "2026-09-23",
-  "digestDate": "2026-09-24",
+  "digestDate": "2026-09-25",
   "lastSuccessAt": "2026-09-24T09:53:56.877717+08:00",
   "files": {
     "data": {
@@ -46,13 +46,13 @@
       }
     },
     "digest": {
-      "file": "assets/test-digest-5e795d9ff5d84589.gz",
-      "sha256": "5e795d9ff5d845892233a22fcc0cddc5f85611ef6a7588885e0e18f09bf21cf8",
-      "bytes": 35008,
+      "file": "assets/test-digest-7cccb38dc213fbad.gz",
+      "sha256": "7cccb38dc213fbad756521d0f01ed70320b15a9fb54e44d47c1a192564fd79fb",
+      "bytes": 34781,
       "fallback": {
-        "file": "assets/test-digest-9dd0f5dd24303ba5.json",
-        "sha256": "9dd0f5dd24303ba5552436abe998fc14d89fde14d9220d1d29c30b0410cce460",
-        "bytes": 335604
+        "file": "assets/test-digest-e2f2fbb263c0cf82.json",
+        "sha256": "e2f2fbb263c0cf82eba0dd8a58bea97b5c28e7e1eb49fa1bede6528015432ca8",
+        "bytes": 335191
       }
     },
     "workspace": {
