@@ -1,18 +1,18 @@
 {
   "version": 1,
-  "buildId": "546f82998c7f23b78ba3",
-  "dataThrough": "2026-09-28",
-  "digestDate": "2026-09-29",
-  "lastSuccessAt": "2026-09-29T09:48:57.161387+08:00",
+  "buildId": "8c4e293108342580eaa3",
+  "dataThrough": "2026-09-29",
+  "digestDate": "2026-09-30",
+  "lastSuccessAt": "2026-09-30T09:52:13.001377+08:00",
   "files": {
     "data": {
-      "file": "assets/data-d21562cdb151be48.gz",
-      "sha256": "d21562cdb151be48634cf3e840996190bccb4f3bed5940ce6d71ef0329092eb9",
-      "bytes": 1779476,
+      "file": "assets/data-18293589e9028ea5.gz",
+      "sha256": "18293589e9028ea571d0b300677552d61436e998da8967ddcbb7d76ee3138855",
+      "bytes": 1808240,
       "fallback": {
-        "file": "assets/data-2e1571cf1d305b9f.json",
-        "sha256": "2e1571cf1d305b9f9cb9965abb4bbe1b4853da39d660dda61b41963256b05881",
-        "bytes": 7111459
+        "file": "assets/data-aa65c79555b95533.json",
+        "sha256": "aa65c79555b95533cdaf161b3423d37bc39fbb083707c8463510bfa7935d2dce",
+        "bytes": 7219745
       }
     },
     "business": {
@@ -36,33 +36,33 @@
       }
     },
     "app": {
-      "file": "assets/app-b7728535df082f44.gz",
-      "sha256": "b7728535df082f4406449da1fcb17812c24d83b060c7247cfb08479ff604d6ca",
-      "bytes": 738393,
+      "file": "assets/app-d945fe1e242401fd.gz",
+      "sha256": "d945fe1e242401fd3cb961b1ac7260c5e82455c902dced90ed4bf7ffeee15a13",
+      "bytes": 738530,
       "fallback": {
-        "file": "assets/app-29b9f6b6b8b7c6f9.js",
-        "sha256": "29b9f6b6b8b7c6f9f38e80a71acdcc686acf84af9ff9c7a84a902af37951865c",
-        "bytes": 2382456
+        "file": "assets/app-80da9f0ed4133aa9.js",
+        "sha256": "80da9f0ed4133aa973715ffcebea2447651f0d9c1c346272804b0a6a3c20fc5f",
+        "bytes": 2382919
       }
     },
     "digest": {
-      "file": "assets/test-digest-7c534c1ca7dc3106.gz",
-      "sha256": "7c534c1ca7dc3106c7070a53bd267875b84d10bdabb09f7e4025a12dcbaca597",
-      "bytes": 34916,
+      "file": "assets/test-digest-454ee66f04964e21.gz",
+      "sha256": "454ee66f04964e21597803e9a17c9644a45e30f10186a4651626605a0c0eeffa",
+      "bytes": 36702,
       "fallback": {
-        "file": "assets/test-digest-def0137024f5655c.json",
-        "sha256": "def0137024f5655cbaf6324f3acb1f0d3502ccd37221b05023e247a792215574",
-        "bytes": 335410
+        "file": "assets/test-digest-77d504a38c95bd6b.json",
+        "sha256": "77d504a38c95bd6b0c13c07eacac19a2d3c3552e3fdc709eac18f1e0414cedbe",
+        "bytes": 340177
       }
     },
     "workspace": {
-      "file": "assets/workspace-12e1c528d2e684a7.gz",
-      "sha256": "12e1c528d2e684a73bc3ca719a99e2a938a72de23d62a13d1bde7bd1549fd9ae",
-      "bytes": 4704,
+      "file": "assets/workspace-1f9999c379f6ed8c.gz",
+      "sha256": "1f9999c379f6ed8c24a7c7d98872d1b2cfeb952ce0aab6d0d6a15d0a127c4e29",
+      "bytes": 5778,
       "fallback": {
-        "file": "assets/workspace-7aabcc73c5b97858.json",
-        "sha256": "7aabcc73c5b97858361a236cb3649c22e0efd7f90472514b196b0126281396dd",
-        "bytes": 24574
+        "file": "assets/workspace-69f61b6ffb3cf810.json",
+        "sha256": "69f61b6ffb3cf810239793616a9998bf19858cc8548984dc651ba3d33d1a5f7a",
+        "bytes": 29801
       }
     }
   },
