@@ -1,18 +1,18 @@
 {
   "version": 1,
-  "buildId": "8c4e293108342580eaa3",
-  "dataThrough": "2026-09-29",
-  "digestDate": "2026-09-30",
-  "lastSuccessAt": "2026-09-30T09:52:13.001377+08:00",
+  "buildId": "b7643377f9b523ea109f",
+  "dataThrough": "2026-09-30",
+  "digestDate": "2026-10-01",
+  "lastSuccessAt": "2026-10-01T10:02:53.678670+08:00",
   "files": {
     "data": {
-      "file": "assets/data-18293589e9028ea5.gz",
-      "sha256": "18293589e9028ea571d0b300677552d61436e998da8967ddcbb7d76ee3138855",
-      "bytes": 1808240,
+      "file": "assets/data-7cdb88696657d6d6.gz",
+      "sha256": "7cdb88696657d6d677454f40bbe321b181978615f03e6864338837a2f2b3e55f",
+      "bytes": 1831719,
       "fallback": {
-        "file": "assets/data-aa65c79555b95533.json",
-        "sha256": "aa65c79555b95533cdaf161b3423d37bc39fbb083707c8463510bfa7935d2dce",
-        "bytes": 7219745
+        "file": "assets/data-2bdb3b8b8427ffa3.json",
+        "sha256": "2bdb3b8b8427ffa3ba1e701c648f816dc36b8f131e23b4f209b14df7136ba74c",
+        "bytes": 7326833
       }
     },
     "business": {
@@ -46,23 +46,23 @@
       }
     },
     "digest": {
-      "file": "assets/test-digest-454ee66f04964e21.gz",
-      "sha256": "454ee66f04964e21597803e9a17c9644a45e30f10186a4651626605a0c0eeffa",
-      "bytes": 36702,
+      "file": "assets/test-digest-b9aa610a4785d9f7.gz",
+      "sha256": "b9aa610a4785d9f7233adfeedf548ae1be197dd93f92deba93936efb3c5a4df9",
+      "bytes": 36541,
       "fallback": {
-        "file": "assets/test-digest-77d504a38c95bd6b.json",
-        "sha256": "77d504a38c95bd6b0c13c07eacac19a2d3c3552e3fdc709eac18f1e0414cedbe",
-        "bytes": 340177
+        "file": "assets/test-digest-5b46470a77ffc16c.json",
+        "sha256": "5b46470a77ffc16c048f5834cdd75b73e5a61d752dbaa1516a891a2ecdc89cc5",
+        "bytes": 339661
       }
     },
     "workspace": {
-      "file": "assets/workspace-1f9999c379f6ed8c.gz",
-      "sha256": "1f9999c379f6ed8c24a7c7d98872d1b2cfeb952ce0aab6d0d6a15d0a127c4e29",
-      "bytes": 5778,
+      "file": "assets/workspace-e5d97962206c88c2.gz",
+      "sha256": "e5d97962206c88c207e5eabff288b673ae18a23df776a989cb440b348324e2b6",
+      "bytes": 6196,
       "fallback": {
-        "file": "assets/workspace-69f61b6ffb3cf810.json",
-        "sha256": "69f61b6ffb3cf810239793616a9998bf19858cc8548984dc651ba3d33d1a5f7a",
-        "bytes": 29801
+        "file": "assets/workspace-4382840832bea5b2.json",
+        "sha256": "4382840832bea5b2b40a5ffdb94d7d53889c10b8f7bb800aaadda8be00253d2a",
+        "bytes": 31139
       }
     }
   },
