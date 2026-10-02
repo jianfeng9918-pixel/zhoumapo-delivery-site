@@ -1,18 +1,18 @@
 {
   "version": 1,
-  "buildId": "b7643377f9b523ea109f",
-  "dataThrough": "2026-09-30",
-  "digestDate": "2026-10-01",
-  "lastSuccessAt": "2026-10-01T10:02:53.678670+08:00",
+  "buildId": "f4cc1daff0d31a2a3dab",
+  "dataThrough": "2026-10-01",
+  "digestDate": "2026-10-02",
+  "lastSuccessAt": "2026-10-02T09:37:48.255237+08:00",
   "files": {
     "data": {
-      "file": "assets/data-7cdb88696657d6d6.gz",
-      "sha256": "7cdb88696657d6d677454f40bbe321b181978615f03e6864338837a2f2b3e55f",
-      "bytes": 1831719,
+      "file": "assets/data-e66afde629941e94.gz",
+      "sha256": "e66afde629941e949d6b7036955f3155567cd0aeca386c5b663251eebf3459a5",
+      "bytes": 1840670,
       "fallback": {
-        "file": "assets/data-2bdb3b8b8427ffa3.json",
-        "sha256": "2bdb3b8b8427ffa3ba1e701c648f816dc36b8f131e23b4f209b14df7136ba74c",
-        "bytes": 7326833
+        "file": "assets/data-174e3dc0b4e9ddf0.json",
+        "sha256": "174e3dc0b4e9ddf0e6d53ac1a6e8353c1a5f9af3e3a0bede7bd26fca5d0dd3d0",
+        "bytes": 7370636
       }
     },
     "business": {
@@ -36,23 +36,23 @@
       }
     },
     "app": {
-      "file": "assets/app-d945fe1e242401fd.gz",
-      "sha256": "d945fe1e242401fd3cb961b1ac7260c5e82455c902dced90ed4bf7ffeee15a13",
-      "bytes": 738530,
+      "file": "assets/app-be94a0fed413709a.gz",
+      "sha256": "be94a0fed413709af6a96432974ba3e66489f7c61639253533faabde605a4ffb",
+      "bytes": 738732,
       "fallback": {
-        "file": "assets/app-80da9f0ed4133aa9.js",
-        "sha256": "80da9f0ed4133aa973715ffcebea2447651f0d9c1c346272804b0a6a3c20fc5f",
-        "bytes": 2382919
+        "file": "assets/app-2f8bb0eb475b0cb0.js",
+        "sha256": "2f8bb0eb475b0cb0607fc13474df1bd1646b12029746b7b3a33decf4cada03df",
+        "bytes": 2383330
       }
     },
     "digest": {
-      "file": "assets/test-digest-b9aa610a4785d9f7.gz",
-      "sha256": "b9aa610a4785d9f7233adfeedf548ae1be197dd93f92deba93936efb3c5a4df9",
-      "bytes": 36541,
+      "file": "assets/test-digest-2a93c1da5382753c.gz",
+      "sha256": "2a93c1da5382753c1e332e7decddc9ef832848d077a189418b05c1ea72fdccc4",
+      "bytes": 36270,
       "fallback": {
-        "file": "assets/test-digest-5b46470a77ffc16c.json",
-        "sha256": "5b46470a77ffc16c048f5834cdd75b73e5a61d752dbaa1516a891a2ecdc89cc5",
-        "bytes": 339661
+        "file": "assets/test-digest-28b907ce21b67c0f.json",
+        "sha256": "28b907ce21b67c0ff4ea79ed7a16965b93e9788c5d5874e5f064b3988c8862e7",
+        "bytes": 339171
       }
     },
     "workspace": {
