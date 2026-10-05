@@ -1,18 +1,18 @@
 {
   "version": 1,
-  "buildId": "9241cfc187db00ddb189",
-  "dataThrough": "2026-10-02",
-  "digestDate": "2026-10-03",
-  "lastSuccessAt": "2026-10-03T09:36:25.230935+08:00",
+  "buildId": "a7790a8cf80c4396ff5a",
+  "dataThrough": "2026-10-04",
+  "digestDate": "2026-10-05",
+  "lastSuccessAt": "2026-10-05T09:39:58.363553+08:00",
   "files": {
     "data": {
-      "file": "assets/data-b92354c846120b66.gz",
-      "sha256": "b92354c846120b66c839642e558533b6351b181d9ea1332b60b3037bd7e86927",
-      "bytes": 1877320,
+      "file": "assets/data-9db522507a402ea7.gz",
+      "sha256": "9db522507a402ea740318aac8f5dfce3471d889572f6e4363e6acc21420288b3",
+      "bytes": 1933008,
       "fallback": {
-        "file": "assets/data-0974504a72c3cfb0.json",
-        "sha256": "0974504a72c3cfb08b1fc0c12ac6510e0d5debbc973f3863cc5c96dbb9ee6dac",
-        "bytes": 7488115
+        "file": "assets/data-6bc0d3f84221a65c.json",
+        "sha256": "6bc0d3f84221a65cdb892bcdf6391be2facd6b8047f9cc77eea0d3b2f1541ac5",
+        "bytes": 7669647
       }
     },
     "business": {
@@ -46,13 +46,13 @@
       }
     },
     "digest": {
-      "file": "assets/test-digest-190a0d1e80b9b4fd.gz",
-      "sha256": "190a0d1e80b9b4fdd0385217916f82b7f866ed9ad5298568631ca6e4166149b4",
-      "bytes": 36315,
+      "file": "assets/test-digest-439eecc3edb971c3.gz",
+      "sha256": "439eecc3edb971c3b4347c1aa7dd02947f9fc7a01326ed73180c96d3e3307dfa",
+      "bytes": 36401,
       "fallback": {
-        "file": "assets/test-digest-50982f3d39e6ed34.json",
-        "sha256": "50982f3d39e6ed34bf04f04a962c3f82088015874760f2231e81ce96a80150da",
-        "bytes": 339224
+        "file": "assets/test-digest-103b65ac90f763f1.json",
+        "sha256": "103b65ac90f763f1f215ca2557f0ff6b3631a0ebd1e66dbb051a8fea19a96c06",
+        "bytes": 339386
       }
     },
     "workspace": {
